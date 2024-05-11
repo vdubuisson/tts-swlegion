@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Graffiti Tokens",
+    "Nickname": "Pions Graffiti",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -62,7 +62,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Graffiti_Token.63cabc.json"
-  ]
+  "ContainedObjectPaths": ["Graffiti_Token.63cabc.json"]
 }

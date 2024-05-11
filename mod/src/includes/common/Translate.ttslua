@@ -48,4 +48,92 @@ local translate = {
     end
   end,
 
+  commandType = function(name)
+    ------- Rebelles -----------
+    if name == 'rebelCommander' then
+      return 'Commandant Rebelle'
+    elseif name == 'rebelOperative' then
+      return 'Agents Rebelles'
+    elseif name == 'rebelCorps' then
+      return 'Troupiers Rebelles'
+    elseif name == 'rebelSpecialforces' then
+      return 'Forces spéciales Rebelles'
+    elseif name == 'rebelSupport' then
+      return 'Soutien Rebelle'
+    elseif name == 'rebelHeavy' then
+      return 'Lourd Rebelle'
+
+    ------- Empire -----------
+    elseif name == 'imperialCommander' then
+      return 'Commandant Impérial'
+    elseif name == 'imperialOperative' then
+      return 'Agents Impériaux'
+    elseif name == 'imperialCorps' then
+      return 'Troupiers Impériaux'
+    elseif name == 'imperialSpecialforces' then
+      return 'Forces spéciales Impériales'
+    elseif name == 'imperialSupport' then
+      return 'Soutien Impérial'
+    elseif name == 'imperialHeavy' then
+      return 'Lourd Impérial'
+
+    ------- Séparatistes -----------
+    elseif name == 'separatistCommander' then
+      return 'Commandant Séparatiste'
+    elseif name == 'separatistOperative' then
+      return 'Agents Séparatistes'
+    elseif name == 'separatistCorps' then
+      return 'Troupiers Séparatistes'
+    elseif name == 'separatistSpecialforces' then
+      return 'Forces spéciales Séparatistes'
+    elseif name == 'separatistSupport' then
+      return 'Soutien Séparatiste'
+    elseif name == 'separatistHeavy' then
+      return 'Lourd Séparatiste'
+
+    ------- République -----------
+    elseif name == 'republicCommander' then
+      return 'Commandant de la République'
+    elseif name == 'republicOperative' then
+      return 'Agents de la République'
+    elseif name == 'republicCorps' then
+      return 'Troupiers de la République'
+    elseif name == 'republicSpecialforces' then
+      return 'Forces spéciales de la République'
+    elseif name == 'republicSupport' then
+      return 'Soutien de la République'
+    elseif name == 'republicHeavy' then
+      return 'Lourd de la République'
+
+    ------- Mercenaires -----------
+    elseif name == 'shadowcollectiveCommander' then
+      return 'Commandant Mercenaire'
+    elseif name == 'shadowcollectiveOperative' then
+      return 'Agents Mercenaires'
+    elseif name == 'shadowcollectiveCorps' then
+      return 'Troupiers Mercenaires'
+    elseif name == 'shadowcollectiveSpecialforces' then
+      return 'Forces spéciales Mercenaires'
+    elseif name == 'shadowcollectiveSupport' then
+      return 'Soutien Mercenaire'
+    elseif name == 'shadowcollectiveHeavy' then
+      return 'Lourd Mercenaire'
+    
+    
+    else
+      return name
+    end
+  end,
+
+  color = function(name)
+    local lowername = name:lower()
+    if lowername == 'blue' then
+      return 'Bleu'
+    elseif lowername == 'red' then
+      return 'Rouge'
+    else
+      return name
+    end
+  end,
+
 }

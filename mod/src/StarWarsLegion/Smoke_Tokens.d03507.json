@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Smoke Tokens",
+    "Nickname": "Pions Fumée",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -62,7 +62,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Smoke_Token.63cabc.json"
-  ]
+  "ContainedObjectPaths": ["Smoke_Token.63cabc.json"]
 }

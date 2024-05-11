@@ -1,4 +1,5 @@
 require('!/common/Tablex')
+require('!/common/Translate')
 
 local function initListSpawner(params)
   local deck = params.deck
@@ -176,7 +177,7 @@ local function initListSpawner(params)
 
   function initializeMini(pMiniTable)
     local strColor = pMiniTable.colorSide
-    strColor = strColor:gsub("^%l", string.upper)
+    strColor = translate.color(strColor)
 
     -- detect leader units
     local leaderInt = pMiniTable.leaderIndex
@@ -325,12 +326,10 @@ local function initListSpawner(params)
       faction:lower() ..
       rankAndRemap:lower():gsub("^%l", string.upper)
     local commandName =
-      color:gsub("^%l", string.upper) ..
+      "Pion Ordre: " ..
+      translate.commandType(commandType) ..
       " " ..
-      faction:gsub("^%l", string.upper) ..
-      " " ..
-      unitInfo.rank:gsub("^%l", string.upper) ..
-      " Command Token"
+      translate.color(color)
     miniData.name = unitInfo.name
     miniData.baseSize = unitInfo.size
     miniData.commandName = commandName

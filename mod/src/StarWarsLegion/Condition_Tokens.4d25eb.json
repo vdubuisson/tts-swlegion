@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Condition Tokens",
+    "Nickname": "Pions Condition",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Condition_Token.85fa87.json"
-  ]
+  "ContainedObjectPaths": ["Condition_Token.85fa87.json"]
 }

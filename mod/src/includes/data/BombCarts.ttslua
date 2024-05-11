@@ -6,7 +6,7 @@ scripted = true
 -- Bomb Cart Token
 -- It acts both as a miniature *and* a command token (for itself).
 function onLoad()
-  if self.getName() ~= "Bomb Cart" then
+  if self.getName() ~= "Chariot Porte-bombe" then
     return
   end
 
@@ -30,13 +30,13 @@ function hideUI()
   self.createButton({
       click_function = "toggleMenu",
       function_owner = self,
-      label = "Interact",
+      label = "Interagir",
       position = {0, 0.1, 1.5},
       scale = {0.5, 0.5, 0.5},
-      width = 800, height = 300,
+      width = 850, height = 300,
       font_size = 200, color = {0, 0, 0, 0.8},
       font_color = {0.1212, 0.8127, 0, 1},
-      tooltip = "Move the cart or show range rulers."
+      tooltip = "Déplacer le chariot ou voir la Portée"
   })
   self.createButton({
       click_function = "toggleSilhouette",
@@ -47,7 +47,7 @@ function hideUI()
       width = 325, height = 300,
       font_size = 200, color = {0, 0, 0, 0.8},
       font_color = {0.1212, 0.8127, 0, 1},
-      tooltip = "Toggle Silhouette"
+      tooltip = "Voir Silhouette"
   })
 end
 
@@ -64,31 +64,31 @@ function showUI()
       font_size = 150,
       color = {0, 0, 0, 1},
       font_color = {1, 0.9135, 0, 1},
-      tooltip = "Close",
+      tooltip = "Fermer",
   })
   self.createButton({
       click_function = "spawnMoveTemplate",
       function_owner = self,
-      label = "  MOVE",
+      label = "DEPLACER",
       position = {1.7, 0.2, 0.4},
       width = 750,
       height = 350,
       font_size = 150,
       color = {0, 0, 0, 1},
       font_color = {0.9167, 0.9167, 0.9167, 1},
-      tooltip = "Spawn movement template."
+      tooltip = "Déplacer le chariot"
   })
   self.createButton({
       click_function = "toggleRangeRuler",
       function_owner = self,
-      label = "  RANGE",
+      label = "PORTEE",
       position = {1.7, 0.2, -0.4},
       width = 750,
       height = 350,
       font_size = 150,
       color = {0, 0, 0, 1},
       font_color = {0.4709, 0.9759, 0.9162, 1},
-      tooltip = "Spawn Range Ruler"
+      tooltip = "Voir la Portée"
   })
 end
 
@@ -121,7 +121,7 @@ function spawnMoveTemplate()
   self.editButton({
       index = 1,
       click_function = "hideMoveTemplate",
-      label = "  DONE",
+      label = "    OK",
       color = {0.7, 0.03, 0.03},
       font_color = {1, 1, 1}
   })
@@ -216,16 +216,16 @@ function spawnMoveTemplate()
   self.createButton({
       click_function = "moveFull",
       function_owner = self,
-      label = "FULL",
-      position = {4.2, 0.2, 1.2}, width = 700, height = 350, font_size = 200, color = {0, 0, 0, 1}, font_color = {0.0551, 0.9312, 0, 1},
-      tooltip = "Execute Full Move"
+      label = "COMPLET",
+      position = {4.2, 0.2, 1.2}, width = 700, height = 350, font_size = 150, color = {0, 0, 0, 1}, font_color = {0.0551, 0.9312, 0, 1},
+      tooltip = "Réaliser le déplacement complet"
   })
   self.createButton({
       click_function = "moveStart",
       function_owner = self,
-      label = "START",
-      position = {4.2, 0.2, 0.4}, width = 700, height = 350, font_size = 200, color = {0, 0, 0, 1}, font_color = {0, 0.9294, 0.8752, 1},
-      tooltip = "Move back to start position"
+      label = "DEPART",
+      position = {4.2, 0.2, 0.4}, width = 700, height = 350, font_size = 150, color = {0, 0, 0, 1}, font_color = {0, 0.9294, 0.8752, 1},
+      tooltip = "Revenir à la position de départ"
   })
 end
 

@@ -79,12 +79,12 @@ end
 function mainMenu()
     timerScreen = false
 
-    printToScreen("STAR WARS LEGION TTS MOD\n by SWL Dev Foundation\n\nThe home of BLITZ!\nSelect an option below to start", 80, 3)
+    printToScreen("STAR WARS LEGION TTS MOD\n par SWL Dev Foundation\n\nChoisissez une option ci-dessous\npour démarrer", 80, 3)
 
     clearAllButtons()
     local menuEntries = {}
-    menuEntries[1] = {functionName = "mapMenu", label = "Maps", tooltip = "Map Menu", buttonTint = {0,0.913,1}}
-    menuEntries[2] = {functionName = "gameOptionsMenu", label = "Set Up", tooltip = "Set Up options menu", buttonTint = {0,0.913,1}}
+    menuEntries[1] = {functionName = "mapMenu", label = "Cartes", tooltip = "Menu des Cartes", buttonTint = {0,0.913,1}}
+    menuEntries[2] = {functionName = "gameOptionsMenu", label = "Options", tooltip = "Menu d'options", buttonTint = {0,0.913,1}}
 
     createMenu(menuEntries, 1)
 
@@ -182,19 +182,19 @@ function defineBattlefieldMenu(params)
     local selectedDeck = params.deck
     local selectedScenario = params.scenario
     if #selectedDeck.getObjects() < 12 then
-      broadcastToAll("At least 12 cards are required to use battlefield vetoes. Move your choices manually to the right places!")
+      broadcastToAll("Au moins 12 cartes sont nécessaires pour utiliser le véto. Déplacer vos choix manuellement vers le bon endroit.")
       return
     end
     _G.selectedScenario = selectedScenario
     print(selectedScenario)
     ga_view("game_controller/define_battlefield")
     clearAllButtons()
-    changeBackButton("reset", "Go back to Main Menu")
+    changeBackButton("reset", "Revenir au menu principal")
     local menuEntries = {}
-    menuEntries[1] = {functionName = "finishDefineBattlefieldMenu", label = "NEXT", tooltip = "NEXT", buttonTint = {0,0.913,1}}
+    menuEntries[1] = {functionName = "finishDefineBattlefieldMenu", label = "SUIVANT", tooltip = "SUIVANT", buttonTint = {0,0.913,1}}
     createMenu(menuEntries, 1)
     revealBattleCards(selectedDeck, selectedScenario)
-    printToScreen("DEFINE BATTLEFIELD\nStarting with Blue player, players eliminate left most card.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", 60, 2)
+    printToScreen("DÉFINIR CHAMP DE BATAILLE\nÉliminer 2 par joueur en commençant par le Bleu.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", 60, 2)
 end
 
 function finishDefineBattlefieldMenu()
@@ -206,36 +206,36 @@ end
 function gameOptionsMenu()
     ga_view("game_controller/game_options")
     clearAllButtons()
-    changeBackButton("mainMenu", "Go back to Main Menu")
+    changeBackButton("mainMenu", "Revenir au menu principal")
     local menuEntries = {}
     menuEntries[1] = {
       functionName = "flipMap",
-      label = "Flip Map",
-      tooltip = "Flip the map to the other side",
+      label = "Inverser Carte",
+      tooltip = "Inverser le sens de la carte",
       buttonTint = {0,0.913,1}
     }
     menuEntries[2] = {
       functionName = "defineBattlefieldMenuBlue",
-      label = "Blue Player: Define Battlefield",
-      tooltip = "Spawn Battlefield Objective, Deployment and Condition cards from Blue Deck",
+      label = "Bleu: Définir champ de Bataille",
+      tooltip = "Faire apparaitre les cartes Objectif, Déploiement et Condition depuis le paquet Bleu",
       buttonTint = {0,0.913,1}
     }
     menuEntries[3] = {
       functionName = "debug",
-      label = "Debug Objects",
-      tooltip = "Corrects terrain that is spawned incorrectly or removes stuck rulers or movement templates",
+      label = "Debug Objets",
+      tooltip = "Corriger un terrain mal placé ou supprimer des règles mal placées",
       buttonTint = {0,0.913,1}
     }
     menuEntries[4] = {
       functionName = "spawnCardDecks",
-      label = "Spawn Card Decks",
-      tooltip = "Spawn Unit/Upgrade/Command cards for manual use",
+      label = "Paquets de Cartes",
+      tooltip = "Faire apparaitre les cartes pour une utilisation manuelle",
       buttonTint = {0,0.913,1}
     }
     menuEntries[5] = {
       functionName = "enableExperimentalFeatures",
-      label = "Enable Experiments",
-      tooltip = "Enables experimental unsupported features",
+      label = "Mode Expérimental",
+      tooltip = "Activer les foncitonnalités expérimentales",
       buttonTint = {0,0.913,1}
     }
     createMenu(menuEntries, 1)
@@ -243,42 +243,42 @@ end
 
 function mapMenu()
     ga_view("game_controller/map_menu")
-    printToScreen("MAP MENU", 80, 3)
+    printToScreen("MENU DES CARTES", 80, 3)
 
     clearAllButtons()
-    changeBackButton("mainMenu", "Go back to Main Menu")
+    changeBackButton("mainMenu", "Revenir au menu principal")
 
     callBackMapMenu = "mapMenu"
 
     local menuEntries = {}
-    menuEntries[1] = {functionName = "featuredMapsMenu", label = "Featured Maps", tooltip = "List and download pre-made maps", buttonTint = {0,0.913,1}}
-    menuEntries[2] = {functionName = "loadMap", label = "Load Map", tooltip = "Load Map from Data Cartridge", buttonTint = {0,0.913,1}}
-    menuEntries[3] = {functionName = "saveMap", label = "Save Map", tooltip = "Save Map to a Data Cartridge", buttonTint = {0,0.913,1}}
-    menuEntries[4] = {functionName = "flipMap", label = "Flip Map", tooltip = "Flip the map to the other side", buttonTint = {0,0.913,1}}
-    menuEntries[5] = {functionName = "customMapMenu", label = "Custom Maps", tooltip = "Create a Custom Map", buttonTint = {0,0.913,1}}
-    menuEntries[6] = {functionName = "clearZones", label = "Clear Map", tooltip = "Clears everything from current Battlefield area", buttonTint = {0,0.913,1}}
-    menuEntries[7] = {functionName = "saveConditions", label = "Save Battlefield Tokens", tooltip = "Saves Objects from the Objective/Deployment/Conditions", buttonTint = {0,0.913,1}}
-    menuEntries[8] = {functionName = "toggleMaskMid", label = "Toggle Masks : Mid", tooltip = "Toggles Masking Objects for the middle of the Battlefield", buttonTint = {0,0.913,1}}
-    menuEntries[9] = {functionName = "toggleMaskLeft", label = "Toggle Masks : Left", tooltip = "Toggles Masking Objects for the left of the Battlefield", buttonTint = {0,0.913,1}}
-    menuEntries[10] = {functionName = "toggleMaskRight", label = "Toggle Masks : Right", tooltip = "Toggles Masking Objects for the right of the Battlefield", buttonTint = {0,0.913,1}}
+    menuEntries[1] = {functionName = "featuredMapsMenu", label = "Cartes Incluses", tooltip = "Lister et télécharger des cartes pré-faites", buttonTint = {0,0.913,1}}
+    menuEntries[2] = {functionName = "loadMap", label = "Charger Carte", tooltip = "Charger une carte depuis un disque de données", buttonTint = {0,0.913,1}}
+    menuEntries[3] = {functionName = "saveMap", label = "Sauvegarder Carte", tooltip = "Sauvegarder la carte vers un disque de données", buttonTint = {0,0.913,1}}
+    menuEntries[4] = {functionName = "flipMap", label = "Inverser Carte", tooltip = "Inverser le sens de la carte", buttonTint = {0,0.913,1}}
+    menuEntries[5] = {functionName = "customMapMenu", label = "Carte Personnalisée", tooltip = "Créer une carte personnalisée", buttonTint = {0,0.913,1}}
+    menuEntries[6] = {functionName = "clearZones", label = "Vider Carte", tooltip = "Tout supprimer de la zone du champ de Bataille", buttonTint = {0,0.913,1}}
+    menuEntries[7] = {functionName = "saveConditions", label = "Sauvegarder Pions", tooltip = "Sauvegarder les objets des Objectifs, Déploiements et Conditions", buttonTint = {0,0.913,1}}
+    menuEntries[8] = {functionName = "toggleMaskMid", label = "Masque : Milieu", tooltip = "Masquer/Démasquer les objets au milieu du champ de Bataille", buttonTint = {0,0.913,1}}
+    menuEntries[9] = {functionName = "toggleMaskLeft", label = "Masque : Gauche", tooltip = "Masquer/Démasquer les objets à gauche du champ de Bataille", buttonTint = {0,0.913,1}}
+    menuEntries[10] = {functionName = "toggleMaskRight", label = "Masque : Droite", tooltip = "Masquer/Démasquer les objets à droite du champ de Bataille", buttonTint = {0,0.913,1}}
     createMenu(menuEntries, 1)
 end
 
 function featuredMapsMenu()
   ga_view("game_controller/featured_maps")
-  printToScreen("FEATURED MAPS\n\nThese are maps featured by the community.\n\nSee https://go.swlegion.dev/maps for details.", 80, 3)
-  changeBackButton("mapMenu", "Go back to Maps Menu")
+  printToScreen("CARTES INCLUSES\n\nCes cartes sont créées par la communauté.\n\nVoir https://go.swlegion.dev/maps\npour plus de détails.", 80, 3)
+  changeBackButton("mapMenu", "Revenir au menu des Cartes")
   local buttonTint = {0,0.913,1}
   local menuEntries = {
     {
-      label = "Competitive",
-      tooltip = "View Competitive Maps",
+      label = "Compétitif",
+      tooltip = "Voir les cartes Compétitif (6x3)",
       functionName = "featuredCompetitiveMenu",
       buttonTint = buttonTint,
     },
     {
-      label = "Skirmish",
-      tooltip = "View Skirmish (3x3) Maps",
+      label = "Escarmouche",
+      tooltip = "Voir les cartes Escarmouche (3x3)",
       functionName = "featuredSkirmisMenu",
       buttonTint = buttonTint,
     }
@@ -288,8 +288,8 @@ end
 
 function featuredCompetitiveMenu()
   ga_view("game_controller/featured_maps/competitive")
-  printToScreen("FEATURED MAPS\n\nThese are maps featured by the community.\n\nSee https://go.swlegion.dev/maps for details.", 80, 3)
-  changeBackButton("featuredMapsMenu", "Go back to featured maps")
+  printToScreen("CARTES COMPÉTITIF\n\nCes cartes sont créées par la communauté.\n\nVoir https://go.swlegion.dev/maps\npour plus de détails.", 80, 3)
+  changeBackButton("featuredMapsMenu", "Revenir au menu des cartes incluses")
   local url = "https://raw.githubusercontent.com/swlegion/tts/master/contrib/maps/competitive.json"
   WebRequest.get(url, function(data)
     local items = JSON.decode(data.text)
@@ -297,7 +297,7 @@ function featuredCompetitiveMenu()
     for _, entry in pairs(items) do
       table.insert(menu, {
         label = entry['name'],
-        tooltip = 'Download map',
+        tooltip = 'Télécharger la carte',
         url = entry['url'],
         buttonTint = {0,0.913,1}
       })
@@ -308,8 +308,8 @@ end
 
 function featuredSkirmisMenu()
   ga_view("game_controller/featured_maps/skirmish")
-  printToScreen("FEATURED MAPS\n\nThese are maps featured by the community.\n\nSee https://go.swlegion.dev/maps for details.\n\nFull support for Skirmish is currently limited:\nhttps://go.swlegion.dev/skirmish.", 80, 3)
-  changeBackButton("featuredMapsMenu", "Go back to featured maps")
+  printToScreen("CARTES ESCARMOUCHE\n\nCes cartes sont créées par la communauté.\n\nVoir https://go.swlegion.dev/maps\npour plus de détails.\n\nLe support complet du mode Escarmouche\nest pour le moment limité :\nhttps://go.swlegion.dev/skirmish.", 80, 3)
+  changeBackButton("featuredMapsMenu", "Revenir au menu des cartes incluses")
   local url = "https://raw.githubusercontent.com/swlegion/tts/master/contrib/maps/skirmish.json"
   WebRequest.get(url, function(data)
     local items = JSON.decode(data.text)
@@ -317,7 +317,7 @@ function featuredSkirmisMenu()
     for _, entry in pairs(items) do
       table.insert(menu, {
         label = entry['name'],
-        tooltip = 'Download map',
+        tooltip = 'Télécharger la carte',
         url = entry['url'],
         buttonTint = {0,0.913,1}
       })
@@ -331,7 +331,7 @@ function createMapMenu(selectedCartridge, mapMenuCallback)
   local menuEntries = {}
   for iM, entry in pairs(selectedMapsTable) do
       _G["spawnCustomMap"..entry.name] = function() spawnCustomMap(entry.name, selectedCartridge, mapMenuCallback) end
-      table.insert(menuEntries, {functionName = "spawnCustomMap"..entry.name, label = entry.name, tooltip = "Load ".. entry.name .." map", buttonTint = {0,0.913,1}})
+      table.insert(menuEntries, {functionName = "spawnCustomMap"..entry.name, label = entry.name, tooltip = "Charger la carte ".. entry.name, buttonTint = {0,0.913,1}})
   end
   createMenu(menuEntries, 1)
 end
@@ -339,7 +339,7 @@ end
 function customMapMenu()
   ga_view("game_controller/custom_maps")
   clearAllButtons()
-  changeBackButton("mapMenu", "Go back to Maps Menu")
+  changeBackButton("mapMenu", "Revenir au menu des cartes")
   createMapMenu(customMapsCartridge, "mapMenu")
 end
 
@@ -543,7 +543,7 @@ end
 function createButtonSetUpCard(cardType, selectedNumber)
     _G["eliminate"..cardType..selectedNumber] = function() eliminateCard(cardType, selectedNumber) end
 
-    local data = {click_function = "eliminate"..cardType..selectedNumber, function_owner = self, label = "ELIMINATE", position = {-1, 1, 0}, rotation = {0, -90, 0}, scale = {0.7, 0.5, 0.5}, width = 2000, height = 400, font_size = 300, color = {1, 0, 0, 0.8}, font_color = {0,0,0, 1.25}}
+    local data = {click_function = "eliminate"..cardType..selectedNumber, function_owner = self, label = "ELIMINER", position = {-1, 1, 0}, rotation = {0, -90, 0}, scale = {0.7, 0.5, 0.5}, width = 2000, height = 400, font_size = 300, color = {1, 0, 0, 0.8}, font_color = {0,0,0, 1.25}}
 
     setUp5Data.spawnedCards[cardType][selectedNumber].createButton(data)
 end
@@ -891,7 +891,7 @@ function changeBackButton(optionClickFunction, optionToolTip)
     end
 
     backButton.createButton({
-        click_function = "gameControllerBackButtonFunction", function_owner = self, label = "BACK", position = {0, 0.65, 0}, scale = {1, 1, 1.4}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
+        click_function = "gameControllerBackButtonFunction", function_owner = self, label = "RETOUR", position = {0, 0.65, 0}, scale = {1, 1, 1.4}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
     })
     backButton.setColorTint({1,0,0})
 end
@@ -903,7 +903,7 @@ function changeNextButton(optionClickFunction, optionToolTip)
     end
 
     nextButton.createButton({
-        click_function = "gameControllerNextButtonFunction", function_owner = self, label = "NEXT", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
+        click_function = "gameControllerNextButtonFunction", function_owner = self, label = "SUIV", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
     })
     nextButton.setColorTint({0.7,0.7,0})
 end
@@ -915,7 +915,7 @@ function changePrevButton(optionClickFunction, optionToolTip)
     end
 
     prevButton.createButton({
-        click_function = "gameControllerPrevButtonFunction", function_owner = self, label = "PREV", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
+        click_function = "gameControllerPrevButtonFunction", function_owner = self, label = "PREC", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = optionToolTip
     })
     prevButton.setColorTint({0.7,0.7,0})
 end
@@ -924,7 +924,7 @@ optionUrls = {}
 
 function downloadMap(mapIndex)
   local url = optionUrls[mapIndex]
-  printToScreen("DOWNLOADING MAP...")
+  printToScreen("TELECHARGEMENT DE LA CARTE...")
   downloadMapByUrl(url)
 end
 
@@ -932,11 +932,11 @@ function downloadMapByUrl(url)
   WebRequest.get(url, function(data)
     -- TTS deletes the download handler after Wait.time, so copy the text.
     local text = data.text
-    printToScreen("UNPACKING MAP...\n\nThis may take several seconds...")
+    printToScreen("OUVERTURE DE LA CARTE...\n\nCeci peut prendre plusieurs secondes...")
     Wait.frames(function()
       local json = JSON.decode(text)
       if not json.ObjectStates then
-        printToAll("Failed to decode map.")
+        printToAll("Echec du décodage de la carte.")
         return
       end
       spawnObjectJSON({
@@ -959,11 +959,11 @@ function createMenu(optionTable, selectedIndex)
         -- create prev and next buttons
         if selectedIndex-5 > 0 then
             _G["prevButtonFunction"] = function() createMenu(optionTable, selectedIndex-5) end
-            changePrevButton("prevButtonFunction", "Previous Menu options")
+            changePrevButton("prevButtonFunction", "Options précédentes")
         end
         if selectedIndex+4 < #optionTable then
             _G["nextButtonFunction"] = function() createMenu(optionTable,selectedIndex+5) end
-            changeNextButton("nextButtonFunction", "More menu options")
+            changeNextButton("nextButtonFunction", "Plus d'options")
         end
     end
 

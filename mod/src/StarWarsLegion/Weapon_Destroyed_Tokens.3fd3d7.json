@@ -13,7 +13,7 @@
       "scaleY": 3.14999771,
       "scaleZ": 3.14999771
     },
-    "Nickname": "Weapon Destroyed Tokens",
+    "Nickname": "Pions Arme Détériorée",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Weapon_Destroyed_Token.f38bf1.json"
-  ]
+  "ContainedObjectPaths": ["Weapon_Destroyed_Token.f38bf1.json"]
 }

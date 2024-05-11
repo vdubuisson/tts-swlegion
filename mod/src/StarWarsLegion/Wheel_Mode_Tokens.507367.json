@@ -13,8 +13,8 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Wheel Mode Tokens",
-    "Description": "Flip tokens to change color",
+    "Nickname": "Pions Mode Roue",
+    "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
       "r": 1,
@@ -62,7 +62,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Wheel_Mode_Token.950f36.json"
-  ]
+  "ContainedObjectPaths": ["Wheel_Mode_Token.950f36.json"]
 }

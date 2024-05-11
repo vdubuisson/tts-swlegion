@@ -85,7 +85,7 @@ function Shelf:spawnUnitModels(params)
       end
       if upgrade.mini ~= nil and (upgrade.leader == true or card.heavyWeaponTeam == true) then
         local model = self:_spawnModel(card.size, upgrade.mini)
-        model.setName(upgrade.name .. " (Unit Leader)")
+        model.setName(upgrade.name .. " (Chef d'unité)")
         table.insert(result, model)
         if callback ~= nil then
           callback(model, #result, size)
@@ -98,7 +98,7 @@ function Shelf:spawnUnitModels(params)
     local model = self:_spawnModel(card.size, config)
     table.insert(result, model)
     if #result == 1 then
-      model.setName(name .. " (Unit Leader)")
+      model.setName(name .. " (Chef d'unité)")
     else
       model.setName(name)
     end

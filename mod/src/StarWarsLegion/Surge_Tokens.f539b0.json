@@ -13,7 +13,7 @@
       "scaleY": 1.64999962,
       "scaleZ": 1.64999962
     },
-    "Nickname": "Surge Tokens",
+    "Nickname": "Pions Adrénaline",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -62,7 +62,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Surge_Token.e733f2.json"
-  ]
+  "ContainedObjectPaths": ["Surge_Token.e733f2.json"]
 }

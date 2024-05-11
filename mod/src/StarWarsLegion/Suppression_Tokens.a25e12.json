@@ -13,7 +13,7 @@
       "scaleY": 1.94999933,
       "scaleZ": 1.94999933
     },
-    "Nickname": "Suppression Tokens",
+    "Nickname": "Pions Suppression",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Suppression_Token.47e1cc.json"
-  ]
+  "ContainedObjectPaths": ["Suppression_Token.47e1cc.json"]
 }

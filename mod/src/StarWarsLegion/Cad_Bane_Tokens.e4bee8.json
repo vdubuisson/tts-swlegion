@@ -13,7 +13,7 @@
       "scaleY": 1,
       "scaleZ": 1
     },
-    "Nickname": "Cad Bane Tokens",
+    "Nickname": "Pions Cad Bane",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -42,7 +42,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Cad_Bane_Tokens.65eae7.json"
-  ]
+  "ContainedObjectPaths": ["Cad_Bane_Tokens.65eae7.json"]
 }

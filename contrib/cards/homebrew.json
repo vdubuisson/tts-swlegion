@@ -3848,7 +3848,7 @@
             "unit": ["Infiltrators"]
           }
         },
-        "additionalObjects": ["Proton Charge Token"]
+        "additionalObjects": ["Pion Charge"]
       },
       {
         "name": "Disruptor Rifle Trooper",
@@ -4215,7 +4215,7 @@
             "unit": ["Sith Empire Boarding Troopers", "Imperial Commandos"]
           }
         },
-        "additionalObjects": ["Proton Charge Token"]
+        "additionalObjects": ["Pion Charge"]
       },
       {
         "name": "Rose Tico",
@@ -4450,7 +4450,7 @@
             "unit": ["Beast Master"]
           }
         },
-        "additionalObjects": ["Proton Charge Token"]
+        "additionalObjects": ["Pion Charge"]
       },
       {
         "name": "Glitterstim",

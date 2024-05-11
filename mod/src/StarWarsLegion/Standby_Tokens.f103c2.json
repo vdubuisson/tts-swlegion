@@ -13,7 +13,7 @@
       "scaleY": 1.84999943,
       "scaleZ": 1.84999943
     },
-    "Nickname": "Standby Tokens",
+    "Nickname": "Pions En Attente",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Standby_Token.7053b7.json"
-  ]
+  "ContainedObjectPaths": ["Standby_Token.7053b7.json"]
 }

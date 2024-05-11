@@ -18,7 +18,7 @@ function onload(save_state)
 
 
     assetButton.createButton({
-            click_function = "returnTokens", function_owner = self, label = "", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = "Return all Aim, Dodge, Standby and Command Tokens to the respective Players"
+            click_function = "returnTokens", function_owner = self, label = "", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = "Retourner tous les pions Viser, Esquive, En Attente et Ordre vers leurs joueurs"
     })
     assetButton.setColorTint({0.7,0,0})
 end
@@ -38,17 +38,17 @@ function returnTokens()
 
     if allObjects then
         for i, obj in pairs(allObjects) do
-            if obj.getName() == "Aim Token" then
+            if obj.getName() == "Pion Viser" then
                 aimNumber = returnToken(aimBag,obj,aimNumber)
-            elseif obj.getName() == "Dodge Token" then
+            elseif obj.getName() == "Pion Esquive" then
                 dodgeNumber = returnToken(dodgeBag,obj,dodgeNumber)
-            elseif obj.getName() == "Standby Token" then
+            elseif obj.getName() == "Pion En Attente" then
                 standbyNumber = returnToken(standbyBag,obj,standbyNumber)
-            elseif obj.getName() == "Surge Token" then
+            elseif obj.getName() == "Pion Adrénaline" then
                 surgeNumber = returnToken(surgeBag,obj,surgeNumber)
-            elseif obj.getName() == "Smoke Token" then
+            elseif obj.getName() == "Pion Fumée" then
                 smokeNumber = returnToken(smokeBag,obj,smokeNumber)
-            elseif obj.getName() == "Observation Token" then
+            elseif obj.getName() == "Pion Surveillance" then
                 observationNumber = returnToken(observationBag,obj,observationNumber)
             elseif obj.getVar("isAToken") == true then
                 local unitData = obj.getTable("unitData")

@@ -16,8 +16,8 @@ function createButton(rotation)
   self.createButton({
     click_function = "toggleRangeRuler",
     function_owner = self,
-    label = "R",
-    tooltip = "Spawn Range Ruler",
+    label = "V",
+    tooltip = "Voir Portée",
     position = {0, 0.1, 0.7},
     rotation = rotation,
     scale = {0.5, 0.5, 0.5},

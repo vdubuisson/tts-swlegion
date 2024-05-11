@@ -13,7 +13,7 @@
       "scaleY": 3.14999771,
       "scaleZ": 3.14999771
     },
-    "Nickname": "Disabled Tokens",
+    "Nickname": "Pions Hors d'Usage",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Disabled_Token.e35ed3.json"
-  ]
+  "ContainedObjectPaths": ["Disabled_Token.e35ed3.json"]
 }

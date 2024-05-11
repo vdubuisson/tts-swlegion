@@ -13,7 +13,7 @@
       "scaleY": 2.549999,
       "scaleZ": 2.549999
     },
-    "Nickname": "Commander Token",
+    "Nickname": "Pions Commandant",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Commander_Token.fd52bf.json"
-  ]
+  "ContainedObjectPaths": ["Commander_Token.fd52bf.json"]
 }

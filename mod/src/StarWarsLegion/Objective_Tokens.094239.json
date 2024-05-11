@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Objective Tokens",
+    "Nickname": "Pions Objectif",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Objective_Token.761482.json"
-  ]
+  "ContainedObjectPaths": ["Objective_Token.761482.json"]
 }

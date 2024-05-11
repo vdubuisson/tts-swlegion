@@ -357,7 +357,7 @@
           "pip": 3
         }
       ],
-      "additionalObjects": ["Victory Token"]
+      "additionalObjects": ["Pion Victoire"]
     },
     {
       "content": "contrib/cards/ShadowCollective/BosskUnit.json"
@@ -451,7 +451,7 @@
           "pip": 2
         }
       ],
-      "additionalObjects": ["Victory Token"]
+      "additionalObjects": ["Pion Victoire"]
     },
     {
       "content": "contrib/cards/ShadowCollective/DinUnit.json"

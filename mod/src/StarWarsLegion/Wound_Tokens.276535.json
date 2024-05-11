@@ -13,7 +13,7 @@
       "scaleY": 2.17499876,
       "scaleZ": 2.17499876
     },
-    "Nickname": "Wound Tokens",
+    "Nickname": "Pions Blessure",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Wound_Token.9a57ce.json"
-  ]
+  "ContainedObjectPaths": ["Wound_Token.9a57ce.json"]
 }

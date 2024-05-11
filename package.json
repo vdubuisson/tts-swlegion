@@ -2,6 +2,7 @@
   "name": "swlegion-tts-mod",
   "scripts": {
     "compile": "npx ts-node tool/main.ts compile mod/src/StarWarsLegion.json dist/StarWarsLegion.json",
+    "compile:reload": "npm run compile -- --reload",
     "extract": "npx ts-node tool/main.ts extract dist/StarWarsLegion.json mod/src",
     "generate": "npx ts-node tool/main.ts generate",
     "lint": "prettier --ignore-path .prettierignore --list-different src tool contrib && eslint src tool --ext .ts",

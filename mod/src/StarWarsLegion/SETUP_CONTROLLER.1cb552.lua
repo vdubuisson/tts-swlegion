@@ -1,5 +1,6 @@
 require('!/Deck')
 require('!/Shelf')
+require('!/common/Translate')
 
 function onload(save_state)
     _G.Deck = Deck:create()
@@ -45,7 +46,7 @@ end
 function drawInput()
   self.clearInputs()
   self.createInput({
-    input_function = "scenarioChanged",
+    input_function = "dud",
     function_owner = self,
     label          = "Scenario",
     alignment      = 3,
@@ -55,16 +56,12 @@ function drawInput()
     height         = 350,
     font_size      = 323,
     validation     = 4,
-    value          = _G.selectedScenario,
-    tooltip        = "Battlefield Deck Type",
+    value          = translate.scenario(_G.selectedScenario),
+    tooltip        = "Type Champ de Bataille",
   })
 end
 
-function scenarioChanged(_, _, input, editing)
-  if input and not editing then
-    _G.selectedScenario = input
-  end
-end
+function dud() end
 
 function changeScenario(params)
   _G.selectedScenario = params[1]
@@ -83,19 +80,19 @@ end
 
 function objectiveMenu()
     clearButton("objective")
-    createOptionButton("objective", "checkObjective", "Objective", "Spawn Relevant Objective Tokens", {0,0.913,1})
+    createOptionButton("objective", "checkObjective", "Objectif", "Faire apparaitre les pions Objectif", {0,0.913,1})
 end
 
 function deploymentMenu()
     clearDeploymentBoundary()
     clearButton("deployment")
-    createOptionButton("deployment", "checkDeployment", "Deployment", "Create Deployment overlay", {0,0.913,1})
+    createOptionButton("deployment", "checkDeployment", "Déploiement", "Faire apparaitre les zones de déploiement", {0,0.913,1})
 end
 
 
 function conditionsMenu()
     clearButton("conditions")
-    createOptionButton("conditions", "checkConditions", "Conditions", "Spawn Relevant Conditions Tokens", {0,0.913,1})
+    createOptionButton("conditions", "checkConditions", "Conditions", "Faire apparaitre les pions Condition", {0,0.913,1})
 end
 
 function checkCardCall(cardTable)
@@ -262,25 +259,25 @@ end
 
 function noObjectiveTokensMenu()
     clearButton("objective")
-    createOptionButton("objective", "checkObjective", "No Tokens", "No relevant Objective tokens needed", {0.7,0,0})
+    createOptionButton("objective", "checkObjective", "Aucun pion", "Aucun pion Objectif nécessaire", {0.7,0,0})
     resetTimer("objective")
 end
 
 function noConditionsTokensMenu()
     clearButton("conditions")
-    createOptionButton("conditions", "checkConditions", "No Tokens", "No relevant Conditions tokens needed", {0.7,0,0})
+    createOptionButton("conditions", "checkConditions", "Aucun pion", "Aucun pion Condition nécessaire", {0.7,0,0})
     resetTimer("conditions")
 end
 
 function noDeploymentTokensMenu()
     clearButton("deployment")
-    createOptionButton("deployment", "checkdDeployment", "No Tokens", "No relevant Objective tokens needed", {0.7,0,0})
+    createOptionButton("deployment", "checkdDeployment", "Aucun pion", "No relevant Objective tokens needed", {0.7,0,0})
     resetTimer("objective")
 end
 
 function noDeploymentMenu()
     clearButton("deployment")
-    createOptionButton("deployment", "checkDeployment", "No Tokens", "No relevant Objective tokens needed", {0.7,0,0})
+    createOptionButton("deployment", "checkDeployment", "Aucun pion", "No relevant Objective tokens needed", {0.7,0,0})
     resetTimer("deployment")
 end
 
@@ -295,7 +292,7 @@ end
 
 function deactivateDeploymentMenu()
     clearButton("deployment")
-    createOptionButton("deployment", "deploymentMenu", "Remove Overlay", "Remove Deployment Overlay", {0.7,0,0})
+    createOptionButton("deployment", "deploymentMenu", "Masquer déploiement", "Masquer les zones de déploiement", {0.7,0,0})
 end
 
 function activateconditions(name)
@@ -315,37 +312,37 @@ end
 
 function noobjective()
     clearButton("objective")
-    createOptionButton("objective", "checkObjective", "Mount Objective", "No Objective selected, mount objective card below", {0.7,0,0})
+    createOptionButton("objective", "checkObjective", "Absent", "Aucun objectif sélectionné, mettez une carte Objectif ci-dessous", {0.7,0,0})
     resetTimer("objective")
 end
 
 function wrongobjective()
     clearButton("objective")
-    createOptionButton("objective", "checkObjective", "Wrong Card", "Wrong Card mounted, mount objective card below", {0.7,0,0})
+    createOptionButton("objective", "checkObjective", "Erreur", "Mauvaise carte, mettez une carte Objectif ci-dessous", {0.7,0,0})
     resetTimer("objective")
 end
 
 function nodeployment()
     clearButton("deployment")
-    createOptionButton("deployment", "checkDeployment", "Mount Deployment", "No Deployment selected, mount deployment card below", {0.7,0,0})
+    createOptionButton("deployment", "checkDeployment", "Absent", "Aucun déploiement sélectionné, mettez une carte Déploiement ci-dessous", {0.7,0,0})
     resetTimer("deployment")
 end
 
 function wrongdeployment()
     clearButton("deployment")
-    createOptionButton("deployment", "checkDeployment", "Wrong Card", "Wrong Card mounted, mount deployment card below", {0.7,0,0})
+    createOptionButton("deployment", "checkDeployment", "Erreur", "Mauvaise carte, mettez une carte Déploiement ci-dessous", {0.7,0,0})
     resetTimer("deployment")
 end
 
 function noconditions()
     clearButton("conditions")
-    createOptionButton("conditions", "checkConditions", "Mount Conditions", "No Conditions selected, mount conditions card below", {0.7,0,0})
+    createOptionButton("conditions", "checkConditions", "Absent", "Aucune conditions sélectionné, mettez une carte Condition ci-dessous", {0.7,0,0})
     resetTimer("conditions")
 end
 
 function wrongconditions()
     clearButton("conditions")
-    createOptionButton("conditions", "checkConditions", "Wrong Card", "Wrong Card mounted, mount conditions card below", {0.7,0,0})
+    createOptionButton("conditions", "checkConditions", "Erreur", "Mauvaise carte, mettez une carte Condition ci-dessous", {0.7,0,0})
     resetTimer("conditions")
 end
 

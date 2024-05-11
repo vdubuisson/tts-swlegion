@@ -13,7 +13,7 @@
       "scaleY": 1.49999964,
       "scaleZ": 1.49999964
     },
-    "Nickname": "Observation Tokens",
+    "Nickname": "Pions Surveillance",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Observation_Token.8887c9.json"
-  ]
+  "ContainedObjectPaths": ["Observation_Token.8887c9.json"]
 }

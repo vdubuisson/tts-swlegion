@@ -1,4 +1,5 @@
 require('!/common/Math')
+require('!/common/Translate')
 require('!/RangeRulers')
 require('!/data/MovementLinks')
 require('!/Cohesion')
@@ -160,7 +161,7 @@ function createStandbyButtons()
             click_function = "activate",
             function_owner = self,
             label = "ACT", position = {0, 0.05, 0.4}, width = 350, height = 250, font_size = 120, color = {0.03, 0.6, 0.03, 1}, font_color = {1, 1, 1, 1},
-            tooltip = "Activate nearest " .. unitData.commandType .. " unit",
+            tooltip = "Activer l'Unité " .. translate.commandType(unitData.commandType) .. " la plus proche",
             color = {0.03, 0.6, 0.03}
         })
     else
@@ -171,7 +172,7 @@ function createStandbyButtons()
             label = "",
             position = {0, 0.05, 0.4}, width = 350, height = 250,
             font_size = 150,
-            tooltip = "No unit of this type left on board",
+            tooltip = "Aucune Unité de ce rang sur le plateau",
             color = {0.6, 0.03, 0.03},
             font_color = {1, 1, 1}
         })
@@ -216,12 +217,12 @@ function resetButtons()
         self.createButton({
             click_function = "nextUnit",
             function_owner = self,
-            label = "NEXT",
+            label = "SUIV",
             position = {0, 0.2, -1.2},
             width = 550,
             height = 350,
             font_size = 150,
-            tooltip = "Toggle between " .. selectedUnitObj.getName() .. " Units",
+            tooltip = "Passer à l'Unité " .. selectedUnitObj.getName() .. " suivante",
             font_color = {0,0,0},
             color = {1, 0.9946, 0, 1}
         })
@@ -229,67 +230,67 @@ function resetButtons()
         self.createButton({
             click_function = "initMove",
             function_owner = self,
-            label = "  MOVE",
+            label = "DEPLACER",
             position = {1.7, 0.2, 0.4},
             width = 750,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {0.9167, 0.9167, 0.9167, 1},
-            tooltip = "Spawn movement templates. Unit leader spawns cohesion rulers when moved"
+            tooltip = "Faire un déplacement"
         })
 
         self.createButton({
             click_function = "aim",
             function_owner = self,
-            label = "AIM      ",
+            label = "VISER    ",
             position = {-1.7, 0.2, -0.4},
             width = 750,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {0, 0.8705, 0.0941, 1},
-            tooltip = "Take an Aim token",
+            tooltip = "Prendre un pion Viser",
             alignment = 2
         })
 
         self.createButton({
             click_function = "attack",
             function_owner = self,
-            label = "  ATTACK",
+            label = " ATTAQUE",
             position = {1.6, 0.2, 1.2},
             width = 850,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {1, 0, 0, 1},
-            tooltip = "Draw Attack Die or Spawn Range Rulers"
+            tooltip = "Faire une attaque"
         })
 
         self.createButton({
             click_function = "dodge",
             function_owner = self,
-            label = "DODGE ",
+            label = "ESQUIVE",
             position = {-1.7, 0.2, 0.4},
             width = 750,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {0, 0.8705, 0.0941, 1},
-            tooltip = "Take a Dodge token"
+            tooltip = "Prendre un pion Esquive"
         })
 
         self.createButton({
             click_function = "overwatch",
             function_owner = self,
-            label = "STANDBY",
+            label = "ATTENTE",
             position = {-1.6, 0.2, 1.2},
             width = 850,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {0, 0.8705, 0.0941, 1},
-            tooltip = "Take an Standby token"
+            tooltip = "Prendre un pion En Attente"
         })
 
         self.createButton({
@@ -302,40 +303,40 @@ function resetButtons()
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {1, 0.9135, 0, 1},
-            tooltip = "Cancel",
+            tooltip = "Annuler",
         })
 
         self.createButton({
             click_function = "endActivation",
             function_owner = self,
-            label = "END",
+            label = "FIN",
             position = {0, 0.2, 1.2},
             width = 550,
             height = 350,
             font_size = 150,
             color = {0.7, 0.03, 0.03, 1},
             font_color = {1, 1, 1, 1},
-            tooltip = "End your Activation",
+            tooltip = "Finir l'Activation",
         })
 
         self.createButton({
             click_function = "toggleCohesionRuler",
             function_owner = self,
             label = "COHESION", position = {1.6, 0.2, -1.2}, width = 850, height = 350, font_size = 150, color = {0, 0, 0, 1}, font_color = {0.4709, 0.9759, 0.9162, 1},
-            tooltip = "Spawn Cohesion Rulers"
+            tooltip = "Voir la zone de cohésion"
         })
 
         self.createButton({
             click_function = "targetingMode",
             function_owner = self,
-            label = "  RANGE",
+            label = " PORTEE",
             position = {1.7, 0.2, -0.4},
             width = 750,
             height = 350,
             font_size = 150,
             color = {0, 0, 0, 1},
             font_color = {0.4709, 0.9759, 0.9162, 1},
-            tooltip = "Spawn Range Rulers"
+            tooltip = "Voir la portée"
         })
     end
 end
@@ -415,7 +416,7 @@ function moveUnit()
     self.editButton({
         index = 1,
         click_function = "stopUnit",
-        label = "  DONE",
+        label = "    OK",
         color = {0.7, 0.03, 0.03},
         font_color = {1, 1, 1}
     })
@@ -540,7 +541,7 @@ function moveUnit()
         click_function = "changeSpeed1",
         function_owner = self,
         label = "1", position = {3, 0.2, -0.4}, width = 300, height = 350, font_size = 200,
-        tooltip = "Move Speed 1",
+        tooltip = "Vitesse 1",
         color = {1, 1, 1},
         font_color = {0, 0, 0}
     })
@@ -549,14 +550,14 @@ function moveUnit()
         click_function = "changeSpeed2",
         function_owner = self,
         label = "2", position = {3, 0.2, 0.4}, width = 300, height = 350, font_size = 200, color = {0, 0, 0, 1}, font_color = {1, 1, 1, 1},
-        tooltip = "Move Speed 2"
+        tooltip = "Vitesse 2"
     })
     self.createButton({
         click_function = "changeSpeed3",
         function_owner = self,
         label = "3",
         position = {3, 0.2, 1.2}, width = 300, height = 350, font_size = 200, color = {0.8103, 0.0857, 0.0857, 1}, font_color = {1, 1, 1, 1},
-        tooltip = "Move Speed 3"
+        tooltip = "Vitesse 3"
     })
     if fixedMove then
 
@@ -627,18 +628,18 @@ function moveUnit()
     self.createButton({
         click_function = "moveFull",
         function_owner = self,
-        label = "FULL",
-        position = {4.2, 0.2, 1.2}, width = 700, height = 350, font_size = 200, color = {0, 0, 0, 1}, font_color = {0.0551, 0.9312, 0, 1},
-        tooltip = "Execute Full Move"
+        label = "COMPLET",
+        position = {4.2, 0.2, 1.2}, width = 700, height = 350, font_size = 100, color = {0, 0, 0, 1}, font_color = {0.0551, 0.9312, 0, 1},
+        tooltip = "Réaliser un déplacement Complet"
     })
 
 
     self.createButton({
         click_function = "moveStart",
         function_owner = self,
-        label = "START",
-        position = {4.2, 0.2, 0.4}, width = 700, height = 350, font_size = 200, color = {0, 0, 0, 1}, font_color = {0, 0.9294, 0.8752, 1},
-        tooltip = "Move back to start position"
+        label = "DEPART",
+        position = {4.2, 0.2, 0.4}, width = 700, height = 350, font_size = 100, color = {0, 0, 0, 1}, font_color = {0, 0.9294, 0.8752, 1},
+        tooltip = "Retour à la position de départ"
     })
 
 end
@@ -849,7 +850,7 @@ function attack()
         index = 3,
         click_function = "stopAttack",
         function_owner = self,
-        label = "     DONE",
+        label = "       OK",
         color = {0.7, 0.03, 0.03},
         font_color = {1, 2, 1}
     })
@@ -931,13 +932,13 @@ function attackMenu(attackTargetObj)
     _G["addSuppression"..self.getGUID()] = function() addSuppression(attackTargetObj) end
 
     attackTargetObj.createButton({
-        click_function = "addIon"..self.getGUID(), function_owner = self, label = "I", position = {-0.9, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {0, 0.1711, 1, 1}, tooltip = "I"
+        click_function = "addIon"..self.getGUID(), function_owner = self, label = "I", position = {-0.9, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {0, 0.1711, 1, 1}, tooltip = "Ion"
     })
     attackTargetObj.createButton({
-        click_function = "addWound"..self.getGUID(), function_owner = self, label = "W", position = {0.9, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {1, 0, 0, 1}, tooltip = "W"
+        click_function = "addWound"..self.getGUID(), function_owner = self, label = "B", position = {0.9, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {1, 0, 0, 1}, tooltip = "Blessure"
     })
     attackTargetObj.createButton({
-        click_function = "addSuppression"..self.getGUID(), function_owner = self, label = "S", position = {0, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {1, 0.8723, 0, 1}, tooltip = "S"
+        click_function = "addSuppression"..self.getGUID(), function_owner = self, label = "S", position = {0, buttonHeight, 0}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 700, height = 700, font_size = 500, color = {1, 0.8723, 0, 1}, tooltip = "Suppression"
     })
 
     -- create attack lines
@@ -1056,7 +1057,7 @@ function createAttackButton(leaderObj)
 
     _G["attackMenu"..leaderObj.getGUID()] = function() attackMenu(leaderObj) end
 
-    local data = {click_function = "attackMenu"..leaderObj.getGUID(), function_owner = self, label = "ATTACK", position = {0, buttonHeight, -0.9}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 1800, height = 700, font_size = 400, color = {1, 0, 0, 1}, font_color = {0, 0, 0, 1}}
+    local data = {click_function = "attackMenu"..leaderObj.getGUID(), function_owner = self, label = "ATTAQUER", position = {0, buttonHeight, -0.9}, rotation = {0, 180, 0}, scale = {0.5, 0.5, 0.5}, width = 1800, height = 700, font_size = 300, color = {1, 0, 0, 1}, font_color = {0, 0, 0, 1}}
 
     leaderObj.createButton(data)
 end

@@ -13,7 +13,7 @@
       "scaleY": 1.69999957,
       "scaleZ": 1.69999957
     },
-    "Nickname": "Dodge Tokens",
+    "Nickname": "Pions Esquive",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Dodge_Token.fbf519.json"
-  ]
+  "ContainedObjectPaths": ["Dodge_Token.fbf519.json"]
 }

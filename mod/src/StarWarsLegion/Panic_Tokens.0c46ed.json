@@ -13,7 +13,7 @@
       "scaleY": 3.14999771,
       "scaleZ": 3.14999771
     },
-    "Nickname": "Panic Tokens",
+    "Nickname": "Pions Panique",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Panic_Token.f89492.json"
-  ]
+  "ContainedObjectPaths": ["Panic_Token.f89492.json"]
 }

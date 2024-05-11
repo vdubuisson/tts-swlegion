@@ -13,7 +13,7 @@
       "scaleY": 1.89999938,
       "scaleZ": 1.89999938
     },
-    "Nickname": "Ion Tokens",
+    "Nickname": "Pions Ionique",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Ion_Token.aea27f.json"
-  ]
+  "ContainedObjectPaths": ["Ion_Token.aea27f.json"]
 }

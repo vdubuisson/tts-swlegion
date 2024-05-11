@@ -13,7 +13,7 @@
       "scaleY": 1.84999943,
       "scaleZ": 1.84999943
     },
-    "Nickname": "Unit ID Token",
+    "Nickname": "Pions Identification d'Unité",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Unit_ID_Token.ba5504.json"
-  ]
+  "ContainedObjectPaths": ["Unit_ID_Token.ba5504.json"]
 }

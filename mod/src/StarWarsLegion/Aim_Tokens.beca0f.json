@@ -13,7 +13,7 @@
       "scaleY": 2.14999914,
       "scaleZ": 2.14999914
     },
-    "Nickname": "Aim Tokens",
+    "Nickname": "Pions Viser",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Aim_Token.21952e.json"
-  ]
+  "ContainedObjectPaths": ["Aim_Token.21952e.json"]
 }

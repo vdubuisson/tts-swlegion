@@ -15,7 +15,7 @@ function onLoadShared(_colorSide, _splitButton, _stackButton, _shuffleButton)
       click_function = "splitTokens",
       function_owner = self,
       label = "SÉPARER",
-      tooltip = "Séparer les jetons de commandement mélangés vers leur rang",
+      tooltip = "Séparer les pions Ordre mélangés vers leur rang",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
       width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
@@ -25,7 +25,7 @@ function onLoadShared(_colorSide, _splitButton, _stackButton, _shuffleButton)
       click_function = "stackTokens",
       function_owner = self,
       label = "EMPILER",
-      tooltip = "Créer la pile de jetons de commandement et mélanger",
+      tooltip = "Créer la pile de pions Ordre et mélanger",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
       width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
@@ -35,7 +35,7 @@ function onLoadShared(_colorSide, _splitButton, _stackButton, _shuffleButton)
       click_function = "shuffleTokens",
       function_owner = self,
       label = "MÉLANGER",
-      tooltip = "Mélanger la pile de jetons de commandement",
+      tooltip = "Mélanger la pile de pions Ordre",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
       width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
@@ -61,9 +61,9 @@ function splitTokens()
       end
   else
       if Player[strColor].seated then
-          broadcastToColor("Aucun jeton dans la pile", strColor, {1,1,1})
+          broadcastToColor("Aucun pion dans la pile", strColor, {1,1,1})
       else
-          broadcastToAll("Aucun jeton dans la pile", {1,1,1})
+          broadcastToAll("Aucun pion dans la pile", {1,1,1})
       end
   end
 
@@ -110,9 +110,9 @@ function stackTokens()
 
 
       if Player[strColor].seated then
-          broadcastToColor("Aucun jeton sur le plateau", strColor, {1,1,1})
+          broadcastToColor("Aucun pion sur le plateau", strColor, {1,1,1})
       else
-          broadcastToAll("Aucun jeton sur le plateau", {1,1,1})
+          broadcastToAll("Aucun pion sur le plateau", {1,1,1})
       end
   end
   commandStack.call("updateStack")
@@ -130,9 +130,9 @@ function shuffleTokens()
       end
   else
       if Player[strColor].seated then
-          broadcastToColor("Aucun jeton dans la pile", strColor, {1,1,1})
+          broadcastToColor("Aucun pion dans la pile", strColor, {1,1,1})
       else
-          broadcastToAll("Aucun jeton dans la pile", {1,1,1})
+          broadcastToAll("Aucun pion dans la pile", {1,1,1})
       end
 
   end

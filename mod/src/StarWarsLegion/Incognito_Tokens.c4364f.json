@@ -13,7 +13,7 @@
       "scaleY": 1.59999955,
       "scaleZ": 1.59999955
     },
-    "Nickname": "Incognito Tokens",
+    "Nickname": "Pions Incognito",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Custom_Model.2dc4b6.json"
-  ]
+  "ContainedObjectPaths": ["Custom_Model.2dc4b6.json"]
 }

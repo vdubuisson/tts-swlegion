@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Shield Tokens",
+    "Nickname": "Pions Bouclier",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -62,7 +62,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Shield_Token.950f36.json"
-  ]
+  "ContainedObjectPaths": ["Shield_Token.950f36.json"]
 }

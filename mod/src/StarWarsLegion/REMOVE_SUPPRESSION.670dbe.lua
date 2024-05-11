@@ -11,7 +11,7 @@ function onload(save_state)
 
     assetButton = getObjectFromGUID("406a41")
     assetButton.createButton({
-            click_function = "removeSuppression", function_owner = self, label = "", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = "Remove one suppression token from each suppression stack in the Battlefield"
+            click_function = "removeSuppression", function_owner = self, label = "", position = {0, 0.65, 0}, scale = {1, 1, 0.7}, width = 1500, height = 2000, font_size = 400, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}, tooltip = "Enlever 1 pion Suppression de chaque pile sur le champ de Bataille"
     })
 end
 
@@ -28,7 +28,7 @@ function removeSuppression()
 
     if allObjects then
         for i, obj in pairs(allObjects) do
-            if obj.getName() == "Suppression Token" then
+            if obj.getName() == "Pion Suppression" then
 
                 if obj.getQuantity() > 0 then
                     local takenObj = obj.takeObject({

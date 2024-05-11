@@ -13,7 +13,7 @@
       "scaleY": 1.89999938,
       "scaleZ": 1.89999938
     },
-    "Nickname": "Immobilize Tokens",
+    "Nickname": "Pions Immobilisation",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Immobilize_Token.5d3ceb.json"
-  ]
+  "ContainedObjectPaths": ["Immobilize_Token.5d3ceb.json"]
 }

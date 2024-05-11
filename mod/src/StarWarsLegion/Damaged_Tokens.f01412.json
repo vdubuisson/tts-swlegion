@@ -13,7 +13,7 @@
       "scaleY": 3.14999771,
       "scaleZ": 3.14999771
     },
-    "Nickname": "Damaged Tokens",
+    "Nickname": "Pions Endommagé",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Damaged_Token.0942f6.json"
-  ]
+  "ContainedObjectPaths": ["Damaged_Token.0942f6.json"]
 }

@@ -13,7 +13,7 @@
       "scaleY": 1.99999917,
       "scaleZ": 1.99999917
     },
-    "Nickname": "Victory Tokens",
+    "Nickname": "Pions Victoire",
     "Description": "",
     "GMNotes": "",
     "ColorDiffuse": {
@@ -52,7 +52,5 @@
     "ContainedObjects": []
   },
   "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Victory_Token.3ef247.json"
-  ]
+  "ContainedObjectPaths": ["Victory_Token.3ef247.json"]
 }

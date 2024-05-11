@@ -50,7 +50,7 @@ function _updateInput()
   end
   self.clearInputs()
   self.createInput({
-    input_function = "_scenarioChanged",
+    input_function = "dud",
     function_owner = self,
     label          = "Scénario",
     alignment      = 3,
@@ -67,6 +67,8 @@ function _updateInput()
   })
   _G.selectedScenario = __state.scenario
 end
+
+function dud() end
 
 function getScenario()
   return __state.scenario
