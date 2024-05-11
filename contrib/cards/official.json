@@ -2110,7 +2110,7 @@
             "faction": ["Range Troopers"]
           }
         }
-      },      
+      },
       {
         "name": "B1 Battle Droid",
         "image": "http://cloud-3.steamusercontent.com/ugc/1680393865568138406/B83A83613C2F77D3BD237309689D70C47BD34350/",
@@ -3637,7 +3637,7 @@
         }
       ]
     },
-    "blitz":{
+    "blitz": {
       "objective": [
         {
           "name": "Bombing Run",
@@ -3719,8 +3719,8 @@
       ],
       "deployment": [
         {
-          "name":"Advanced Positions",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Advanced Positions",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", "r", "r", " ", " ", " ", " ", " ", " "],
@@ -3732,8 +3732,8 @@
           ]
         },
         {
-          "name":"Battle Lines",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Battle Lines",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", "r", "r", "r", "r", "r", " ", " ", " "],
@@ -3745,8 +3745,8 @@
           ]
         },
         {
-          "name":"Danger Close",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Danger Close",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", " ", " ", "b", "b", "b", " ", " ", " "],
@@ -3758,8 +3758,8 @@
           ]
         },
         {
-          "name":"Disarray",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Disarray",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", " ", " ", " ", "b", "b", " ", " ", " "],
@@ -3771,8 +3771,8 @@
           ]
         },
         {
-          "name":"Hemmed In",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Hemmed In",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", "r", " ", " ", "r", "r", " ", " ", " "],
@@ -3784,8 +3784,8 @@
           ]
         },
         {
-          "name":"Long March",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397704784530/FD9F0410D447214E6EBD0ADAA164F0A40D98079D/",
+          "name": "Long March",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397704784530/FD9F0410D447214E6EBD0ADAA164F0A40D98079D/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", " ", " ", " ", " ", "b", "b", " ", " ", " "],
@@ -3797,8 +3797,8 @@
           ]
         },
         {
-          "name":"Major Offensive",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Major Offensive",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", "r", "r", " ", " ", " ", " ", " ", " "],
@@ -3810,8 +3810,8 @@
           ]
         },
         {
-          "name":"Roll Out",
-          "image":"http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
+          "name": "Roll Out",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2094796397702918693/AE8363351402BC55707F1DD2A589650E19B0263B/",
           "type": "horizontal",
           "zone": [
             [" ", " ", " ", "r", "r", " ", " ", " ", " ", " ", " ", " "],

@@ -1,5 +1,6 @@
 require('!/common/Math')
 require('!/common/Tablex')
+require('!/common/Translate')
 require('!/Deck')
 
 local __state = {
@@ -100,8 +101,8 @@ function _addOrCopy()
   self.createButton({
     click_function = "_listRanks",
     function_owner = self,
-    label          = "Add Unit",
-    tooltip        = "Pick a Unit and Upgrades to Spawn",
+    label          = "Ajouter Unité",
+    tooltip        = "Choisir une Unité et ses Améliorations",
     position       = {0, -0.2, 1},
     rotation       = {180, 0, 0},
     scale          = {0.5, 0.5, 0.5},
@@ -114,8 +115,8 @@ function _addOrCopy()
   self.createButton({
     click_function = "_clonePrevious",
     function_owner = self,
-    label          = "Clone Previous",
-    tooltip        = "Clone a previous Unit (i.e. to the \"left\")",
+    label          = "Cloner Précédent",
+    tooltip        = "Cloner l'Unité précédente (à gauche)",
     position       = {0, -0.2, -0.5},
     rotation       = {180, 0, 0},
     scale          = {0.5, 0.5, 0.5},
@@ -169,7 +170,7 @@ function _listRanks()
   _clearUI()
   _clearUnit()
   _rotateAsExpected()
-  _setBackButton("X", "Clear Unit", _addOrCopy)
+  _setBackButton("X", "Supprimer l'Unité", _addOrCopy)
   for i, rank in ipairs({
     "Commander",
     "Operative",
@@ -182,10 +183,11 @@ function _listRanks()
     _G[callback] = function()
       _listUnits(rank)
     end
+    local translatedRank = translate.rank(rank)
     self.createButton({
       click_function = callback,
       function_owner = self,
-      label          = rank,
+      label          = translatedRank,
       position       = {0.93, 0.28, 2.48 - i * 0.35},
       rotation       = {0, 180, 0},
       width          = 1010,
@@ -193,7 +195,7 @@ function _listRanks()
       font_size      = _correctStringLength(rank),
       color          = {0.1764, 0.1764, 0.1764, 0.01},
       font_color     = {0, 0, 0, 100},
-      tooltip        = "Pick from " .. rank .. " units",
+      tooltip        = "Choisir parmi le rang " .. translatedRank,
     })
   end
 end
@@ -266,7 +268,7 @@ end
 function _listUnits(rank)
   _clearUI()
   _clearUpgrades()
-  _setBackButton("X", "Go back and select a rank", _listRanks)
+  _setBackButton("X", "Retour au choix de rang", _listRanks)
   _paginationHelper(_deck:getUnitsByFactionAndRank(__state.faction, rank), {
     key         = rank,
     maxItems    = 6,
@@ -277,7 +279,7 @@ function _listUnits(rank)
         click_function = callback,
         function_owner = self,
         label          = name,
-        tooltip        = "Pick " .. name,
+        tooltip        = "Choisir " .. name,
         position       = {0.93, 0.28, 2.48 - index * 0.35},
         width          = 1010,
         height         = 190,
@@ -293,7 +295,7 @@ function _listUnits(rank)
         click_function = callback,
         function_owner = self,
         label          = "►",
-        tooltip        = "View next page of unit cards",
+        tooltip        = "Page suivante",
         position       = {-0.30, 0.28, 2.48 - 6 * 0.35},
         rotation       = {0, 180, 0},
         width          = 270,
@@ -309,7 +311,7 @@ function _listUnits(rank)
         click_function = callback,
         function_owner = self,
         label          = "◄",
-        tooltip        = "View next page of unit cards",
+        tooltip        = "Page précédente",
         position       = {2.13, 0.28, 2.48 - 6 * 0.35},
         rotation       = {0, 180, 0},
         width          = 270,
@@ -357,7 +359,7 @@ function _listUpgrades(unit)
     click_function = "_listRanks",
     function_owner = self,
     label          = "X",
-    tooltip        = "Remove unit",
+    tooltip        = "Supprimer l'Unité",
     position       = {-0.7, 0.5, -1.4},
     width          = 140,
     height         = 180,
@@ -622,7 +624,7 @@ function _spawnUpgradeCard(upgrade, slotIndex, isRequired)
       font_size      = 100,
       color          = {1, 0, 0},
       font_color     = {1, 1, 1},
-      tooltip        = "Remove",
+      tooltip        = "Supprimer",
     })
   end
 

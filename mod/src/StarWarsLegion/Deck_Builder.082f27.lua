@@ -15,19 +15,19 @@ function onload(save_state)
     battlefieldEntry.clickFunction[3] = "conditionsSubMenu"
 
     battlefieldEntry.labelString = {}
-    battlefieldEntry.labelString[1] = "Objective"
-    battlefieldEntry.labelString[2] = "Deployment"
+    battlefieldEntry.labelString[1] = "Objectifs"
+    battlefieldEntry.labelString[2] = "Déploiements"
     battlefieldEntry.labelString[3] = "Conditions"
 
     selectedCommanders = {}
 
     deckBuilderCommandCategories = {
-      "1 Pips",
-      "1 Pips: Contingencies",
-      "2 Pips",
-      "2 Pips: Contingencies",
-      "3 Pips",
-      "3 Pips: Contingencies"
+      "1 Point",
+      "1 Point: Aléas",
+      "2 Points",
+      "2 Points: Aléas",
+      "3 Points",
+      "3 Points: Aléas"
     }
 
     resetCommandCards()

@@ -12,11 +12,11 @@ end
 
 function createEmptyDieValues()
   local tooltips = {
-    "Crits",
-    "Hits",
-    "Surges (Attack)",
-    "Blocks",
-    "Surges (Defense)",
+    "Critiques",
+    "Touches",
+    "Adrénaline (Attaque)",
+    "Blocage",
+    "Adrénaline (Défense)",
   }
   local zStart = 1.62
   for i, tooltip in pairs(tooltips) do
@@ -148,10 +148,19 @@ function printDieValues()
   end
 end
 
+function getPlayerName(color)
+  for _, player in ipairs(Player.getPlayers()) do
+    if player.color:lower() == color:lower() then
+      return player.steam_name
+    end
+  end
+  return color
+end
+
 function printDieValuesToScreen(dieRecord, dieColors)
-  local message = string.upper(colorSide) .. " "
+  local message = getPlayerName(colorSide) .. " "
   if partialRoll == nil or #partialRoll == #dieObjs then
-    message = message .. "rolled " .. tostring(#dieObjs)
+    message = message .. "a lancé " .. tostring(#dieObjs)
   else
     local reRolled = {red = 0, black = 0, white = 0}
     for _, die in pairs(partialRoll) do
@@ -160,32 +169,32 @@ function printDieValuesToScreen(dieRecord, dieColors)
     end
     local reRollMessage = ""
     if reRolled.red > 0 then
-      reRollMessage = reRollMessage .. (tostring(reRolled.red) .. "R ")
+      reRollMessage = reRollMessage .. (tostring(reRolled.red) .. " rouge ")
     end
     if reRolled.black > 0 then
-      reRollMessage = reRollMessage .. (tostring(reRolled.black) .. "B ")
+      reRollMessage = reRollMessage .. (tostring(reRolled.black) .. " noir ")
     end
     if reRolled.white > 0 then
-      reRollMessage = reRollMessage .. (tostring(reRolled.white) .. "W ")
+      reRollMessage = reRollMessage .. (tostring(reRolled.white) .. " blanc ")
     end
-    message = message .. "re-rolled " .. reRollMessage .. "of " .. tostring(#dieObjs)
+    message = message .. "a relancé " .. reRollMessage .. "sur " .. tostring(#dieObjs)
   end
   local colors = ""
   if dieColors.red > 0 then
-    colors = colors .. tostring(dieColors.red) .. "R "
+    colors = colors .. tostring(dieColors.red) .. " rouge "
   end
   if dieColors.black > 0 then
-    colors = colors .. tostring(dieColors.black) .. "B "
+    colors = colors .. tostring(dieColors.black) .. " noir "
   end
   if dieColors.white > 0 then
-    colors = colors .. tostring(dieColors.white) .. "W "
+    colors = colors .. tostring(dieColors.white) .. " blanc "
   end
   if mode == "defend" then
-    message = message .. " defense dice " .."( pool: " .. colors .. ")\n"
-    message = message .. tostring(dieRecord.block) .. " BLOCKS, " .. tostring(dieRecord.dSurge) .. " SURGES."
+    message = message .. " dés de défense " .."( " .. colors .. ")\n"
+    message = message .. tostring(dieRecord.block) .. " BLOCAGES, " .. tostring(dieRecord.dSurge) .. " ADRENALINES."
   else
-    message = message .. " attack dice " .. "( pool: " .. colors .. ")\n"
-    message = message .. tostring(dieRecord.crit) .. " CRITS, " .. tostring(dieRecord.hit) .. " HITS, " .. tostring(dieRecord.oSurge) .. " SURGES."
+    message = message .. " dés d'attaque " .. "( " .. colors .. ")\n"
+    message = message .. tostring(dieRecord.crit) .. " CRITIQUES, " .. tostring(dieRecord.hit) .. " TOUCHES, " .. tostring(dieRecord.oSurge) .. " ADRENALINES."
   end
   broadcastToAll(message)
 end

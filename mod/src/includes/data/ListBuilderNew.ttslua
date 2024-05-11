@@ -1,5 +1,6 @@
 require('!/common/Math')
 require('!/common/Stringx')
+require('!/common/Translate')
 require('!/common/Zonex')
 require('!/Deck')
 require('!/Shelf')
@@ -68,7 +69,7 @@ local ui = {
     button.createButton({
       click_function    = callName,
       function_owner    = self,
-      label             = "BACK",
+      label             = "RETOUR",
       position          = {0, 0.65, 0},
       scale             = {1, 1, 0.7},
       width             = 1500,
@@ -238,26 +239,26 @@ function _mainMenu()
   ui.clear()
   ui.draw({
     {
-      title    = "Create Army",
-      tooltip  = "Create an army",
+      title    = "Créer Armée",
+      tooltip  = "Créer une armée",
       callback = _chooseFaction,
       tint     = {0, 0.913, 1},
     },
     {
-      title    = "Load Army",
-      tootlip  = "Load an army from JSON or Data Disk",
+      title    = "Charger Armée",
+      tooltip  = "Charger une armée depuis JSON ou disque de données",
       callback = _loadArmy,
       tint     = {0, 0.913, 1},
     },
     {
-      title    = "Clear Side",
-      tooltip  = "Clears the units and cards on your side of the table",
+      title    = "Vider Côté",
+      tooltip  = "Vider les unités et les cartes de votre côté de la table",
       callback = _clearZone,
       tint     = {0, 0.913, 1},
     },
     {
-      title    = "Auto Tint",
-      tooltip  = "Apply automatic base tining to yet-to-be-deployment units",
+      title    = "Couleur Auto",
+      tooltip  = "Colorer automatiquement les bases des unités en attente de déploiement",
       callback = _autoTint,
       tint     = {0, 0.913, 1},
     }
@@ -326,13 +327,14 @@ end
 function _chooseFaction()
   _clearZone()
   ui.clear()
-  ui.back("Go back to the main menu", _mainMenu)
+  ui.back("Revenir au menu principal", _mainMenu)
   local buttons = {}
   for _, faction in ipairs(_deck:getFactions()) do
     local title = stringx.titleCase(faction)
+    local displayTitle = translate.faction(faction)
     table.insert(buttons, {
-      title    = title,
-      tooltip  = "Create a " .. title .. " army",
+      title    = displayTitle,
+      tooltip  = "Créer une armée " .. displayTitle,
       callback = function()
         _createArmy(title)
         _clearZone()
@@ -347,29 +349,29 @@ end
 function _createArmy(faction)
   __state.faction = faction
   ui.clear()
-  ui.back("Go back to faction selection", _chooseFaction)
+  ui.back("Retourner à la sélection de faction", _chooseFaction)
   ui.draw({
     {
-      title     = "Spawn Army",
-      tooltip   = "Finish creating and spawn your army",
+      title     = "Valider Armée",
+      tooltip   = "Valider et faire apparaitre les figurines",
       callback  = _saveAndLoadArmy,
       tint      = {1, 0, 0},
     },
     {
-      title     = "Save Army",
-      tooltip   = "Save army to a data disk",
+      title     = "Enregistrer Armée",
+      tooltip   = "Enregistrer l'armée sur un disque de données",
       callback  = _saveArmy,
       tint      = {0, 0.913, 1},
     },
     {
-      title     = "Reset Army",
-      tooltip   = "Reset army creation",
+      title     = "Réinitialiser Armée",
+      tooltip   = "Réinitialiser la création d'armée",
       callback  = _resetArmy,
       tint      = {0, 0.913, 1},
     },
     {
-      title     = stringx.titleCase(_getSelectedScenario()) .. " Battle Deck",
-      tooltip   = "Change battle deck",
+      title     = "Paquet Bataille",
+      tooltip   = "Changer le paquet Bataille",
       secondary = "→",
       callback  = _changeBattleDeck,
       tint      = {0, 0.913, 1},
@@ -510,7 +512,7 @@ function _loadArmy()
     end
   end
   broadcastToAll(
-    "No data disk inserted for " .. stringx.titleCase(__state.color)
+    "Aucun disque de données inséré pour " .. stringx.titleCase(__state.color)
   )
 end
 

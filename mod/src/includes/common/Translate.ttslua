@@ -1,0 +1,51 @@
+local translate = {
+  faction = function(name)
+    local lowername = name:lower()
+    if lowername == 'rebel' then
+      return 'Rebellion'
+    elseif lowername == 'empire' then
+      return 'Empire'
+    elseif lowername == 'republic' then
+      return 'République Galactique'
+    elseif lowername == 'separatist' then
+      return 'Alliance Séparatiste'
+    elseif lowername == 'shadowcollective' then
+      return 'Mercenaires'
+    else
+      return name
+    end
+  end,
+
+  rank = function(name)
+    local lowername = name:lower()
+    if lowername == 'commander' then
+      return 'Commandant'
+    elseif lowername == 'operative' then
+      return 'Agents'
+    elseif lowername == 'corps' then
+      return 'Troupiers'
+    elseif lowername == 'special forces' then
+      return 'Forces spéciales'
+    elseif lowername == 'support' then
+      return 'Soutien'
+    elseif lowername == 'heavy' then
+      return 'Lourd'
+    else
+      return name
+    end
+  end,
+
+  scenario = function(name)
+    local lowername = name:lower()
+    if lowername == 'standard' then
+      return 'Standard'
+    elseif lowername == 'skirmish' then
+      return 'Escarmouche'
+    elseif lowername == 'blitz' then
+      return 'Eclair'
+    else
+      return name
+    end
+  end,
+
+}

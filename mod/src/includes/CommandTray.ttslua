@@ -14,31 +14,31 @@ function onLoadShared(_colorSide, _splitButton, _stackButton, _shuffleButton)
   splitButton.createButton({
       click_function = "splitTokens",
       function_owner = self,
-      label = "SPLIT",
-      tooltip = "Separate shuffled Command Tokens to their respective ranks",
+      label = "SÉPARER",
+      tooltip = "Séparer les jetons de commandement mélangés vers leur rang",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
-      width = 2100, height = 1400, font_size = 600, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
+      width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
   })
 
   stackButton.createButton({
       click_function = "stackTokens",
       function_owner = self,
-      label = "STACK",
-      tooltip = "Form Command Token stack and shuffle",
+      label = "EMPILER",
+      tooltip = "Créer la pile de jetons de commandement et mélanger",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
-      width = 2100, height = 1400, font_size = 600, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
+      width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
   })
 
   shuffleButton.createButton({
       click_function = "shuffleTokens",
       function_owner = self,
-      label = "SHUFFLE",
-      tooltip = "Shuffle Command Tokens",
+      label = "MÉLANGER",
+      tooltip = "Mélanger la pile de jetons de commandement",
       position = {0, 0.7, 0},
       scale = {0.6, 1, 1},
-      width = 2100, height = 1400, font_size = 600, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
+      width = 2100, height = 1400, font_size = 500, color = {0.7573, 0.7573, 0.7573, 0.01}, font_color = {0, 0, 0, 100}
   })
 end
 
@@ -61,9 +61,9 @@ function splitTokens()
       end
   else
       if Player[strColor].seated then
-          broadcastToColor("No Tokens in Command Stack", strColor, {1,1,1})
+          broadcastToColor("Aucun jeton dans la pile", strColor, {1,1,1})
       else
-          broadcastToAll("No Tokens in Command Stack", {1,1,1})
+          broadcastToAll("Aucun jeton dans la pile", {1,1,1})
       end
   end
 
@@ -110,9 +110,9 @@ function stackTokens()
 
 
       if Player[strColor].seated then
-          broadcastToColor("No Command Tokens in Tray", strColor, {1,1,1})
+          broadcastToColor("Aucun jeton sur le plateau", strColor, {1,1,1})
       else
-          broadcastToAll("No Command Tokens in Tray", {1,1,1})
+          broadcastToAll("Aucun jeton sur le plateau", {1,1,1})
       end
   end
   commandStack.call("updateStack")
@@ -124,15 +124,15 @@ function shuffleTokens()
   if #commandStack.getObjects() > 0 then
       commandStack.shuffle()
       if Player[strColor].seated then
-          broadcastToColor("Shuffling Command Stack", strColor, {1,1,1})
+          broadcastToColor("Mélange de la pile", strColor, {1,1,1})
       else
-          broadcastToAll("Shuffling Command Stack", {1,1,1})
+          broadcastToAll("Mélange de la pile", {1,1,1})
       end
   else
       if Player[strColor].seated then
-          broadcastToColor("No Tokens in Command Stack", strColor, {1,1,1})
+          broadcastToColor("Aucun jeton dans la pile", strColor, {1,1,1})
       else
-          broadcastToAll("No Tokens in Command Stack", {1,1,1})
+          broadcastToAll("Aucun jeton dans la pile", {1,1,1})
       end
 
   end
