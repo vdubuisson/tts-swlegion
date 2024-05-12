@@ -172,7 +172,7 @@ function Deck:spawnCommandCard(name, isContingency)
   if command == nil then
     return self:_spawnCommandDud(name, "No matching command found.", isContingency)
   else
-    local name = command.name
+    local name = command.translatedName or command.name
     local image = command.image
     if image == "" then
       image = self._unknown.command
