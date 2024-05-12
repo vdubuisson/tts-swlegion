@@ -546,6 +546,29 @@ function Deck:getCommandsByFactionAndUnits(faction, units)
   return result
 end
 
+function Deck:getBattleCard(name, scenario, type)
+  if not scenario then
+    scenario = 'standard'
+  end
+  scenario = scenario:lower()
+  return self:_getSchema().battlefield[scenario][type][name:upper()] or nil
+end
+
+function Deck:getBattleCardByTranslation(name, scenario)
+  if not scenario then
+    scenario = 'standard'
+  end
+  scenario = scenario:lower()
+  for type, cards in pairs(self:_getSchema().battlefield[scenario]) do
+    for upperName, card in pairs(cards) do
+      if card.translatedName == name then
+        return card
+      end
+    end
+  end
+  return nil
+end
+
 function Deck:getBattleCardType(name, scenario)
   if not scenario then
     scenario = 'standard'

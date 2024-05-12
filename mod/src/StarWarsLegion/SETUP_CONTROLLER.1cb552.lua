@@ -107,7 +107,8 @@ function checkCard(cardType)
 
   if zoneObj then
     local name = zoneObj.getName()
-    local type = Deck:getBattleCardType(name, battleDeckScenario)
+    local battleCard = Deck:getBattleCardByTranslation(name, battleDeckScenario)
+    local type = Deck:getBattleCardType(battleCard.name, battleDeckScenario)
     -- TODO: Clean up once there is a better mechanism for these types of cards.
     if not type then
       return false
@@ -116,7 +117,7 @@ function checkCard(cardType)
       type = "conditions"
     end
     if type:upper() == cardType:upper() then
-      self.call("activate"..type, name)
+      self.call("activate"..type, battleCard.name)
     else
       self.call("wrong".. type)
     end

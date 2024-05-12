@@ -405,6 +405,8 @@ function createMatrixFromDeck(battleDeckInserted, battleDeckScenario)
     })
     local name = object.getName()
     local type = Deck:getBattleCardType(name, battleDeckScenario)
+    local battleCard = Deck:getBattleCard(name, battleDeckScenario, type)
+    object.setName(battleCard.translatedName or name)
     -- TODO: Rename conditions -> condition
     if type == "condition" then
       type = "conditions"
