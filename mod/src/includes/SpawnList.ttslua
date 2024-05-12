@@ -201,7 +201,12 @@ local function initListSpawner(params)
         local description = ""
 
         for p, upgradeName in pairs(pMiniTable.upgrades) do
-          description = description .. upgradeName .. "\n"
+          local fullUpgrade = deck:getUpgradeByName(upgradeName)
+          if fullUpgrade ~= nil and fullUpgrade.translatedName ~= nil then
+            description = description .. fullUpgrade.translatedName .. "\n"
+          else
+            description = description .. upgradeName .. "\n"
+          end
         end
         objEntry.obj.setDescription(description)
 
@@ -464,13 +469,26 @@ local function initListSpawner(params)
         end
       end
     end
+
+    local translatedName = name
+
+    if completeUnitData ~= nil then
+      translatedName = completeUnitData.translatedName or completeUnitData.name
+      if completeUnitData.translatedTitle ~= nil then
+        translatedName = translatedName .. " " .. completeUnitData.translatedTitle
+      elseif completeUnitData.title ~= nil then
+        translatedName = translatedName .. " " .. completeUnitData.title
+      end
+    end
+
     local result = shelf:spawnUnitModels({
-      faction    = faction,
-      name       = name,
-      upgrades   = upgrades,
-      additional = additional,
-      scripts    = scripts,
-      callback   = function(model, index, base)
+      faction     = faction,
+      name        = name,
+      translatedName = translatedName,
+      upgrades    = upgrades,
+      additional  = additional,
+      scripts     = scripts,
+      callback    = function(model, index, base)
         local position = computeMiniPositions(
           offsets.adjustedPos,
           index,

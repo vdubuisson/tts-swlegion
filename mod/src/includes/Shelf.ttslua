@@ -85,7 +85,11 @@ function Shelf:spawnUnitModels(params)
       end
       if upgrade.mini ~= nil and (upgrade.leader == true or card.heavyWeaponTeam == true) then
         local model = self:_spawnModel(card.size, upgrade.mini)
-        model.setName(upgrade.name .. " (Chef d'unité)")
+        if upgrade.translatedName ~= nil then
+          model.setName(upgrade.translatedName .. " (Chef d'unité)")
+        else
+          model.setName(upgrade.name .. " (Chef d'unité)")
+        end
         table.insert(result, model)
         if callback ~= nil then
           callback(model, #result, size)
@@ -97,10 +101,11 @@ function Shelf:spawnUnitModels(params)
   for _, config in pairs(minis) do
     local model = self:_spawnModel(card.size, config)
     table.insert(result, model)
+    local modelName = params.translatedName or name
     if #result == 1 then
-      model.setName(name .. " (Chef d'unité)")
+      model.setName(modelName .. " (Chef d'unité)")
     else
-      model.setName(name)
+      model.setName(modelName)
     end
     if callback ~= nil then
       callback(model, #result, size)
@@ -112,7 +117,11 @@ function Shelf:spawnUnitModels(params)
     if upgrade ~= nil then
       if upgrade.mini ~= nil and upgrade.leader ~= true and card.heavyWeaponTeam ~= true then
         local model = self:_spawnModel(card.size, upgrade.mini)
-        model.setName(upgrade.name)
+        if upgrade.translatedName ~= nil then
+          model.setName(upgrade.translatedName)
+        else
+          model.setName(upgrade.name)
+        end
         table.insert(result, model)
         if callback ~= nil then
           callback(model, #result, size)
@@ -127,7 +136,7 @@ function Shelf:spawnUnitModels(params)
     -- Spawn additional objects attached to unit or upgrade cards.
     if #additionalObjects > 0 or additional.callback then
       self:spawnAdditionalObjects({
-        name     = card.name .. "'s Objects",
+        name     = "Objets de " .. card.name,
         position = additional.position,
         rotation = additional.rotation,
         callback = additional.callback,

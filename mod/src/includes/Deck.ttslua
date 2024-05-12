@@ -58,8 +58,10 @@ function Deck:spawnUnitCard(faction, name)
     if image == "" then
       card.setDescription("No image specified! Using fallback.")
     end
-    local name = unit.name
-    if unit.title ~= nil then
+    local name = unit.translatedName or unit.name
+    if unit.translatedTitle ~= nil then
+      name = name .. ": " .. unit.translatedTitle
+    elseif unit.title ~= nil then
       name = name .. ": " .. unit.title
     end
     card.setName(name)
@@ -113,13 +115,17 @@ function Deck:spawnUpgradeCard(name)
     return self:_spawnUpgradeDud(name, "No matching upgrade found.")
   else
     local unknown = self._unknown.upgrade
-    local name = upgrade.name
+    local name = upgrade.translatedName or upgrade.name
     local front = upgrade.image
     local back = ""
     if upgrade.flip == nil then
       back = front
     else
-      name = name .. " / " .. upgrade.flip.name
+      if upgrade.flip.translatedName ~= nil then
+        name = name .. " / " .. upgrade.flip.translatedName
+      else
+        name = name .. " / " .. upgrade.flip.name
+      end
       back = upgrade.flip.image
     end
     if front == "" then

@@ -274,7 +274,7 @@ function _listUnits(rank)
     maxItems    = 6,
     currentPage = _page.units or 1,
     renderItem  = function(item, index, callback)
-      local name = item.displayName or item.name
+      local name = item.displayName or item.translatedName or item.name
       self.createButton({
         click_function = callback,
         function_owner = self,
@@ -509,13 +509,13 @@ function _drawUpgradeSlot(name, slotIndex)
       self.createButton({
         click_function = callback,
         function_owner = self,
-        label          = item.name,
-        tooltip        = item.name,
+        label          = item.translatedName or item.name,
+        tooltip        = item.translatedName or item.name,
         position       = position,
         rotation       = {0, 180, 0},
         width          = 1340,
         height         = 380,
-        font_size      = _correctStringLength2(item.name),
+        font_size      = _correctStringLength2(item.translatedName or item.name),
         color          = {0.1764, 0.1764, 0.1764, 0.01},
         font_color     = {0, 0, 0, 100},
         scale          = {0.5, 0.5, 0.5},

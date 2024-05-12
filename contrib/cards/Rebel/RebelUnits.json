@@ -2,7 +2,8 @@
   "Commander": [
     {
       "name": "Luke Skywalker",
-      "title": "Héros de la Rebellion",
+      "title": "Hero of the Rebellion",
+      "translatedTitle": "Héros de la Rebellion",
       "image": "http://cloud-3.steamusercontent.com/ugc/2500138005854946368/FC9FDAC92536543F48CDC31F52AB495168DD1E9A/",
       "size": "small",
       "type": "Trooper",
@@ -26,6 +27,7 @@
         },
         {
           "name": "You Serve Your Master Well",
+          "translatedName": "Tu Sers Bien Ton Maître",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035766/83D508C088FC9B893BDA1C497410726302D84452/",
           "pip": 1
         },
@@ -189,6 +191,7 @@
     {
       "name": "Cassian Andor",
       "title": "Capable Intelligence Agent",
+      "translatedTitle": "Agent du Renseignement Chevronné",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788603937/418000BFD236B11C08F5EA8AF670673AC63199D2/",
       "size": "small",
       "type": "Trooper",
@@ -208,6 +211,7 @@
       "commands": [
         {
           "name": "Crack Shot",
+          "translatedName": "As de la Gâchette",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036864/47CCB05A1DB54F77FADE1652F981DAB2BD39FEE1/",
           "pip": 1
         },
@@ -373,6 +377,7 @@
     {
       "name": "Sabine Wren",
       "title": "Explosive Artist",
+      "translatedTitle": "Artiste Explosive",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788604048/BE5C0706F024117D9DBCF3468D89A4DEA1C10BFE/",
       "size": "small",
       "type": "Trooper",
@@ -620,6 +625,7 @@
   "Corps": [
     {
       "name": "Rebel Troopers",
+      "translatedName": "Soldats Rebelles",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788604151/FDE5B897188B36FF0336D103A45C20E91E25FED0/",
       "size": "small",
       "type": "Trooper",
