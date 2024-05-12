@@ -1,6 +1,7 @@
 {
   "name": "Bossk",
   "title": "Trandoshan Terror",
+  "translatedTitle": "Terreur de Trandosha",
   "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418867948/20A2EB617A2E756580A6A127046FFC24E28F1157/",
   "size": "small",
   "type": "Trooper",
@@ -19,16 +20,19 @@
   "commands": [
     {
       "name": "Merciless Munitions",
+      "translatedName": "Munitions Impitoyables",
       "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036341/7FF893D01D2692E537EB6B157DCAB16421438FC4/",
       "pip": 1
     },
     {
       "name": "Reptilian Rampage",
+      "translatedName": "Fureur Reptilienne",
       "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034734/F11C62C109C1CA7EE490169555DBAE37E4A9B53C/",
       "pip": 2
     },
     {
       "name": "Lying In Wait",
+      "translatedName": "Paré et en Position",
       "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033363/C8D04CF3CEE5DE82C69BAB90B7C61DFA842AE591/",
       "pip": 3
     }

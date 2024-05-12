@@ -3,6 +3,7 @@
     {
       "name": "Gar Saxon",
       "title": "Militant Commando",
+      "translatedTitle": "Commando Militant",
       "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418868157/2B2B2A00440F285FF504B91185998FC1F9A842F5/",
       "size": "small",
       "type": "Trooper",
@@ -22,16 +23,19 @@
       "commands": [
         {
           "name": "Marked for Elimination",
+          "translatedName": "Marqué Pour Elimination",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876685/D3ED3CC8A88D1F2A95E509F2D8D8E0B9B1E324A4/",
           "pip": 1
         },
         {
           "name": "Fight Another Day",
+          "translatedName": "Combatre un Jour de Plus",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876554/70144F2711BF5050032AF53983EFD7097A815AB7/",
           "pip": 2
         },
         {
           "name": "Victory or Death!",
+          "translatedName": "La Victoire ou la Mort !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876867/B888FA6460B95A5FD755E599833A3DC2D441B5F5/",
           "pip": 3
         }
@@ -48,6 +52,7 @@
     {
       "name": "Maul",
       "title": "A Rival",
+      "translatedName": "Un Rival",
       "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418868421/49BFF5E95CB42CD632E5CB9FA0C887BC50314CD6/",
       "size": "small",
       "type": "Trooper",
@@ -67,31 +72,37 @@
       "commands": [
         {
           "name": "Witch Magick",
+          "translatedName": "Sorcellerie",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876925/36A3A5FD30C472A823A487D84B7C358AF99EC1C2/",
           "pip": 1
         },
         {
           "name": "His Eminence",
+          "translatedName": "Son Eminence",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876608/513C47E38F9513066C97A2CA4449351DD9DFF20D/",
           "pip": 2
         },
         {
           "name": "Seize What Power We Can",
+          "translatedName": "Saisir le Pouvoir qu'On Peut",
           "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418876813/C547DF964CE720D134D78C469FB73D47DDE9A7B0/",
           "pip": 3
         },
         {
           "name": "Duel of the Fates",
+          "translatedName": "Duel des Destins",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036827/1967B20CCD59FE2EAECDC15FA5750928F75963E0/",
           "pip": 1
         },
         {
           "name": "The Phantom Menace",
+          "translatedName": "La Menace Fantôme",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034564/5DB3351093F7A089A9C59B40BECBA70140095F9B/",
           "pip": 2
         },
         {
           "name": "At Last",
+          "translatedName": "Enfin !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034186/C08B05E1C969B6ADBB158DE85C499CD938FBC8B5/",
           "pip": 3
         }
@@ -115,6 +126,7 @@
   "Special Forces": [
     {
       "name": "Mandalorian Super Commandos",
+      "translatedName": "Super Commandos Mandaloriens",
       "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418868324/181FD051CF589A96ADCC0FCB37B41A401BA8D6A8/",
       "size": "small",
       "type": "Trooper",
@@ -152,6 +164,7 @@
   "Heavy": [
     {
       "name": "A-A5 Speeder Truck",
+      "translatedName": "Camion Speeder A-A5",
       "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418867601/682A15135D7E55E424D7B26BECC6E676ADAE01EB/",
       "size": "long",
       "type": "Repulsor Vehicle",

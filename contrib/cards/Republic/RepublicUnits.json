@@ -3,6 +3,7 @@
     {
       "name": "Obi-Wan Kenobi",
       "title": "Civilized Warrior",
+      "translatedTitle": "Guerrier Eclairé",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790629/61D2CCB8A106E855E621557601F65B34FB2AEFC1/",
       "size": "small",
       "type": "Trooper",
@@ -22,16 +23,19 @@
       "commands": [
         {
           "name": "Hello There!",
+          "translatedName": "Salut à Tous !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036592/C0182450268D43C5589930D988CF04ECC4A1C248/",
           "pip": 1
         },
         {
           "name": "Knowledge And Defense",
+          "translatedName": "La Connaissance et la Défense",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035139/48E071EA2C88883329D050F338F8947FD2515F6D/",
           "pip": 2
         },
         {
           "name": "General Kenobi",
+          "translatedName": "Général Kenobi",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033710/C8724AA758E97BCBEDA8C66CECDA298AB74EFB05/",
           "pip": 3
         }
@@ -39,7 +43,9 @@
     },
     {
       "name": "Clone Captain Rex",
+      "translatedName": "Capitaine Clone Rex",
       "title": "Honorable Soldier",
+      "translatedTitle": "Soldat Honorable",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790598/868FE96BEB709EE3A25D7973FF259B8BF7824475/",
       "size": "small",
       "type": "Clone Trooper",
@@ -60,16 +66,19 @@
       "commands": [
         {
           "name": "Call Me Captain",
+          "translatedName": "Appelez-Moi Capitaine",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564037031/128A58AE6DE52C3BFB59C0B621C1562EC5760564/",
           "pip": 1
         },
         {
           "name": "Take That, Clankers!",
+          "translatedName": "Prenez-ça, Cliquetis Ambulants !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034598/FAD8628CEF4BC9782992174756FD109E5AD8E949/",
           "pip": 2
         },
         {
           "name": "We're Not Programmed",
+          "translatedName": "Nous ne sommes pas Programmés",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564032907/37CBE4B02058855DF6EB5B305AEC12DA796E8FDD/",
           "pip": 3
         }
@@ -78,6 +87,7 @@
     {
       "name": "Anakin Skywalker",
       "title": "The Chosen One",
+      "translatedTitle": "L'Elu",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790573/1BDDD3F5C3D43558F79F35F1A4B9327F4729D62B/",
       "size": "small",
       "type": "Trooper",
@@ -97,16 +107,19 @@
       "commands": [
         {
           "name": "This Is Where The Fun Begins",
+          "translatedName": "Que la Fête Commence !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035947/5377294A33E87301DC4D54ED1A1C1DE218E1C882/",
           "pip": 1
         },
         {
           "name": "You Underestimate My Power",
+          "translatedName": "C'est Mal Connaître mes Pouvoirs",
           "image": "http://cloud-3.steamusercontent.com/ugc/1860546411028299110/717B2B1BCADD299F347748ABBE239E89A0B6EE08/",
           "pip": 2
         },
         {
           "name": "Hero Of The Clone Wars",
+          "translatedName": "Héros de la Guerre des Clones",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033655/AA08CE1F53847CE3CCA7233A1060886F8EBE500F/",
           "pip": 3
         }
@@ -115,7 +128,9 @@
     },
     {
       "name": "Clone Commander",
+      "translatedName": "Commandant Clone",
       "title": "Trained For Leadership",
+      "translatedTitle": "Entraîné à Diriger",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790538/EBB9911B9EB9C0F817370266A8ACB8357BEB3919/",
       "size": "small",
       "type": "Clone Trooper",
@@ -135,6 +150,7 @@
     {
       "name": "Yoda",
       "title": "Grand Master Of The Jedi Order",
+      "translatedTitle": "Grand Maître de l'Ordre Jedi",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790511/A6CDD26B405EFC7CC306D96BB04AA24E5BED2794/",
       "size": "small",
       "type": "Trooper",
@@ -152,16 +168,19 @@
       "commands": [
         {
           "name": "Size Matters Not",
+          "translatedName": "La Taille Important n'Est Pas",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036164/6444F2658805AE43ED73CF592F8D9340262E8851/",
           "pip": 1
         },
         {
           "name": "There Is No Try",
+          "translatedName": "Il n'y a pas d'Essai",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034526/8811897A231A24247FA9120971D4994A45BAE4CD/",
           "pip": 2
         },
         {
           "name": "Luminous Beings Are We",
+          "translatedName": "Des Etres Lumineux Nous Sommes",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033410/83F24DB765D234502B457983834BF25FB5FAB05A/",
           "pip": 3
         }
@@ -169,7 +188,9 @@
     },
     {
       "name": "Wookiee Chieftain",
+      "translatedName": "Chef Wookie",
       "title": "Clan Leader",
+      "translatedTitle": "Leader de Clan",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790478/85E9C624082CA5731008121F45ABFA06CC4583DB/",
       "size": "small",
       "type": "Wookiee Trooper",
@@ -189,6 +210,7 @@
     {
       "name": "Chewbacca",
       "title": "Hero Of Kashyyyk",
+      "translatedTitle": "Héros de Kashyyyk",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790442/8E99C974FA5AF735BADBABA2CEA6400399908E50/",
       "size": "small",
       "type": "Wookiee Trooper",
@@ -207,6 +229,7 @@
       "commands": [
         {
           "name": "Size Matters Sometimes",
+          "translatedName": "La Taille Importe Parfois",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034701/1CC8DEA4C8584B532EAA67A7BA8E4FEA81EEAD85/",
           "pip": 2
         }
@@ -256,6 +279,7 @@
     {
       "name": "R2-D2",
       "title": "Independent Astromech",
+      "translatedName": "Astromech Indépendant",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790410/0D5BE2D0E5632005D6BC47413845604898AF0004/",
       "size": "small",
       "type": "Droid Trooper",
@@ -274,16 +298,19 @@
       "commands": [
         {
           "name": "Blast Off!",
+          "translatedName": "Décollage !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564037063/A7AE3401CB3A51A58A8682BBCD8D6F6C104804AF/",
           "pip": 1
         },
         {
           "name": "Impromptu Immolation",
+          "translatedName": "Immolation Inattendue",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035209/4C4829AE9D1B01B14F2D4FDE2C6D3935D8055954/",
           "pip": 2
         },
         {
           "name": "Smoke Screen",
+          "translatedName": "Ecran de Fumée",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033033/7FC32081CE8646476E7B0C475F452AA629BA7713/",
           "pip": 3
         }
@@ -291,7 +318,9 @@
     },
     {
       "name": "Padme Amidala",
+      "translatedName": "Padmé Amidala",
       "title": "Spirited Senator",
+      "translatedTitle": "Fougueuse Sénatrice",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790377/AC7989ED45A958942F1EF716B575174C5BEB92E1/",
       "size": "small",
       "type": "Trooper",
@@ -312,16 +341,19 @@
       "commands": [
         {
           "name": "Our Fate Is In Your Hands",
+          "translatedName": "Notre Destin est Entre vos Mains",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036311/3A7A61391C83C42A345A3EAB161E6561398BE472/",
           "pip": 1
         },
         {
           "name": "Aggressive Negotiations",
+          "translatedName": "Négotiations Brutales",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035707/638FD7106E81C966C44029EE4176F70CC9A2882F/",
           "pip": 2
         },
         {
           "name": "Diplomatic Cover",
+          "translatedName": "Couverture Diplomatique",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033800/D0BF00F6C508E2765F47868E4399E798D8811426/",
           "pip": 3
         }
@@ -331,6 +363,7 @@
   "Corps": [
     {
       "name": "Phase I Clone Troopers",
+      "translatedName": "Soldats Clones de Phase I",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790336/C2B0C8EB973E7D6657E288E5AFE9C3F00809461A/",
       "size": "small",
       "type": "Clone Trooper",
@@ -363,6 +396,7 @@
     },
     {
       "name": "Phase II Clone Troopers",
+      "translatedName": "Soldats Clones de Phase II",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790299/B84917597F10DE241D7909430E91B5FC03248144/",
       "size": "small",
       "type": "Clone Trooper",
@@ -397,6 +431,7 @@
   "Special Forces": [
     {
       "name": "Arc Troopers",
+      "translatedName": "Soldats CRA",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790227/9326CC2191C991FF9CB0EB06A4EA17A2A17078BC/",
       "size": "small",
       "type": "Clone Trooper",
@@ -430,7 +465,9 @@
     },
     {
       "name": "Arc Troopers",
+      "translatedName": "Soldats CRA",
       "title": "Strike Team",
+      "translatedTitle": "Groupe de Combat",
       "displayName": "Arc Troopers (Strike Team)",
       "heavyWeaponTeam": true,
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790261/AD41C53AE8A6F57645BE2A51DAD8E9FF4FB9224D/",
@@ -454,6 +491,7 @@
     },
     {
       "name": "Wookiee Warriors",
+      "translatedName": "Guerriers Wookies",
       "image": "http://cloud-3.steamusercontent.com/ugc/1619598366708171464/0A12FC8F203E5376156D3C2A207E33E1F5ACB0B6/",
       "size": "small",
       "type": "Wookiee Trooper",
@@ -482,7 +520,9 @@
     },
     {
       "name": "Wookiee Warriors",
+      "translatedName": "Guerriers Wookies",
       "title": "Kashyyyk Defenders",
+      "translatedTitle": "Défenseurs de Kashyyyk",
       "displayName": "Wookiee Warriors (Defenders)",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790192/E7C7082C239E04E3DF76FDFF909EE360D9C25012/",
       "size": "small",
@@ -511,6 +551,7 @@
   "Support": [
     {
       "name": "BARC Speeder",
+      "translatedName": "Speeder BARC",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790145/DD6B7ACA36B88E28B4326E7AA96536230B87F01E/",
       "size": "large",
       "type": "Repulsor Vehicle",
@@ -533,6 +574,7 @@
     },
     {
       "name": "AT-RT",
+      "translatedName": "TL-TT",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790101/7D591836DB5F16ED19FE2A28B55784950E1759CB/",
       "size": "large",
       "type": "Ground Vehicle",
@@ -554,6 +596,7 @@
     },
     {
       "name": "Raddaugh Gnasp Fluttercraft",
+      "translatedName": "Ornithoptère Raddaugh Gnasp",
       "displayName": "Fluttercraft",
       "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189347/2BD4025EABD6F2A919AC40FC4E6D3C8AC4292E86/",
       "size": "huge",
@@ -579,6 +622,7 @@
     },
     {
       "name": "Raddaugh Gnasp Fluttercraft",
+      "translatedName": "Ornithoptère Raddaugh Gnasp",
       "title": "Attack Craft",
       "displayName": "Attack Craft",
       "image": "http://cloud-3.steamusercontent.com/ugc/2058763770174552275/F6013334AFE1F0E4C9A73CDD187AD6D01C6FA906/",
@@ -636,6 +680,7 @@
   "Heavy": [
     {
       "name": "TX-130 Saber-Class Fighter Tank",
+      "translatedName": "Tank de Classe Saber TX-130",
       "displayName": "Saber Tank",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790069/CFA0E667E3B9FEB5F80A3F7A68CAADE7FCF5F340/",
       "size": "epic",
@@ -661,6 +706,7 @@
     },
     {
       "name": "LAAT/LE Patrol Transport",
+      "translatedName": "Transport de Patrouille LAAT/le",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788700907/2DD3325FA71C1F920CC957F8B7393893AE282073/",
       "size": "laat",
       "type": "Repulsor Vehicle",
@@ -684,6 +730,7 @@
     },
     {
       "name": "Infantry Support Platform",
+      "translatedName": "Plateforme de Soutien d'Infanterie",
       "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189285/5E0D18805F9C4BF8A978A9F1F20CFAE73575D02F/",
       "size": "huge",
       "type": "Repulsor Vehicle",

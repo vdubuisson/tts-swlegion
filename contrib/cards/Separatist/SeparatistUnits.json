@@ -2,7 +2,9 @@
   "Commander": [
     {
       "name": "General Grievous",
+      "translatedName": "Général Grievous",
       "title": "Sinister Cyborg",
+      "translatedTitle": "Sinistre Cyborg",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790037/C20F500DE55700AA568EA5BDA7794A1B0210E605/",
       "size": "small",
       "type": "Trooper",
@@ -22,16 +24,19 @@
       "commands": [
         {
           "name": "Trained In Your Jedi Arts",
+          "translatedName": "Entraîné Aux Arts Jedi",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035917/02823FB99DD83199FB8D24F9257F684A251C91D2/",
           "pip": 1
         },
         {
           "name": "Supreme Commander",
+          "translatedName": "Commandant Suprême",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034666/71DDFA4CA889DE1EDAC999866F6B0C887FF2D49F/",
           "pip": 2
         },
         {
           "name": "Crush Them!",
+          "translatedName": "Détruisez-Les !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033887/5DDF0AA77123DE906D2FA6A681B83BB73A48AAF5/",
           "pip": 3
         }
@@ -39,7 +44,9 @@
     },
     {
       "name": "Count Dooku",
+      "translatedName": "Comte Dooku",
       "title": "Darth Tyranus",
+      "translatedTitle": "Dark Tyranus",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789992/5D0BFCF9DA9A3200D9D0A2CDE98E25782B8F4C10/",
       "size": "small",
       "type": "Trooper",
@@ -58,16 +65,19 @@
       "commands": [
         {
           "name": "Fear, Surprise, Intimidation",
+          "translatedName": "La Peur, la Surprise, l'Intimidation",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036674/940E3CA38FB4BDD50EE7E6775E0C0A9D42C75C4A/",
           "pip": 1
         },
         {
           "name": "Double The Fall",
+          "translatedName": "Humiliation Cuisante",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035517/E8A15E29EA9390DE382A583AE416BC4DDDDA6A90/",
           "pip": 2
         },
         {
           "name": "You Disappoint Me",
+          "translatedName": "Vous me décevez",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564032838/8524059D85CFD5ED5238782110CAE2F821271706/",
           "pip": 3
         },
@@ -80,7 +90,9 @@
     },
     {
       "name": "T-Series Tactical Droid",
+      "translatedName": "Droïde Tactique de Série T",
       "title": "Programmed For Strategy",
+      "translatedTitle": "Programmé pour la Stratégie",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789948/57BDB938C53DD5571B6FBC0F15225221BEDDF3F7/",
       "size": "small",
       "type": "Droid Trooper",
@@ -99,6 +111,7 @@
     },
     {
       "name": "Super Tactical Droid",
+      "translatedName": "Super Droïde Tactique",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789910/D7965608F5D3FF1B7FD8D14BF740C098F8AB5B7D/",
       "size": "small",
       "type": "Droid Trooper",
@@ -118,16 +131,19 @@
       "commands": [
         {
           "name": "They Too Will Suffer",
+          "translatedName": "Ils Souffriront Egalement",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036005/BCB6B4D75C375323E4CA020BB1AA01497BEE11ED/",
           "pip": 1
         },
         {
           "name": "Preservation Protocols",
+          "translatedName": "Protocoles de Sauvegarde",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034846/6DFE5FBF65026639A194D1A915193AD147736713/",
           "pip": 2
         },
         {
           "name": "Do Not Underestimate Our Means",
+          "translatedName": "Ne Sous-Estimez pas nos Moyens",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033761/20CD9F48F76B1F86610762FF16699A70F687827B/",
           "pip": 3
         }
@@ -135,6 +151,7 @@
     },
     {
       "name": "Super Tactical Droid",
+      "translatedName": "Super Droïde Tactique",
       "title": "Kalani",
       "displayName": "Kalani",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789867/EB6D7E54CBA8E867A4146B0CE70ADA1769D1EB86/",
@@ -156,16 +173,19 @@
       "commands": [
         {
           "name": "They Too Will Suffer",
+          "translatedName": "Ils Souffriront Egalement",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036005/BCB6B4D75C375323E4CA020BB1AA01497BEE11ED/",
           "pip": 1
         },
         {
           "name": "Preservation Protocols",
+          "translatedName": "Protocoles de Sauvegarde",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034846/6DFE5FBF65026639A194D1A915193AD147736713/",
           "pip": 2
         },
         {
           "name": "Do Not Underestimate Our Means",
+          "translatedName": "Ne Sous-Estimez pas nos Moyens",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033761/20CD9F48F76B1F86610762FF16699A70F687827B/",
           "pip": 3
         }
@@ -173,6 +193,7 @@
     },
     {
       "name": "Super Tactical Droid",
+      "translatedName": "Super Droïde Tactique",
       "title": "Kraken",
       "displayName": "Kraken",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789829/C51EEBAA4150DA48EC395D6C275415592D430E54/",
@@ -195,16 +216,19 @@
       "commands": [
         {
           "name": "They Too Will Suffer",
+          "translatedName": "Ils Souffriront Egalement",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036005/BCB6B4D75C375323E4CA020BB1AA01497BEE11ED/",
           "pip": 1
         },
         {
           "name": "Preservation Protocols",
+          "translatedName": "Protocoles de Sauvegarde",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034846/6DFE5FBF65026639A194D1A915193AD147736713/",
           "pip": 2
         },
         {
           "name": "Do Not Underestimate Our Means",
+          "translatedName": "Ne Sous-Estimez pas nos Moyens",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033761/20CD9F48F76B1F86610762FF16699A70F687827B/",
           "pip": 3
         }
@@ -263,6 +287,7 @@
     {
       "name": "Maul",
       "title": "Impatient Apprentice",
+      "translatedTitle": "Apprenti Impatient",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789734/ABF8B8F5555C2DF64258B4DD432B479059AFF4D9/",
       "size": "small",
       "type": "Trooper",
@@ -280,16 +305,19 @@
       "commands": [
         {
           "name": "Duel Of The Fates",
+          "translatedName": "Duel des Destins",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036827/1967B20CCD59FE2EAECDC15FA5750928F75963E0/",
           "pip": 1
         },
         {
           "name": "The Phantom Menace",
+          "translatedName": "La Menace Fantôme",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034564/5DB3351093F7A089A9C59B40BECBA70140095F9B/",
           "pip": 2
         },
         {
           "name": "At Last",
+          "translatedName": "Enfin !",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034186/C08B05E1C969B6ADBB158DE85C499CD938FBC8B5/",
           "pip": 3
         }
@@ -360,6 +388,7 @@
   "Corps": [
     {
       "name": "B1 Battle Droids",
+      "translatedName": "Droïdes de Combat B1",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789698/9ADC7290CCCD4AA6F24BA74F9C098A4E3A61B063/",
       "size": "small",
       "type": "Droid Trooper",
@@ -399,6 +428,7 @@
     },
     {
       "name": "B2 Super Battle Droids",
+      "translatedName": "Super Droïdes de Combat B2",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789641/943F65C66737E7EB971F1F71FDE9D3E056F7BEC4/",
       "size": "small",
       "type": "Droid Trooper",
@@ -465,6 +495,7 @@
   "Special Forces": [
     {
       "name": "BX-Series Droid Commandos",
+      "translatedName": "Droïdes Commandos de Série BX",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789610/FE6991E3F921A3C5ACD09400FD9CED611AC8E7D0/",
       "size": "small",
       "type": "Droid Trooper",
@@ -498,7 +529,9 @@
     },
     {
       "name": "BX-Series Droid Commandos",
+      "translatedName": "Droïdes Commandos de Série BX",
       "title": "Strike Team",
+      "translatedTitle": "Groupe de Combat",
       "displayName": "BX-Series Commandos (Strike Team)",
       "heavyWeaponTeam": true,
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789579/00BF878D8FCAFAA8F7D9B4B5F0749C63E4EA6F08/",
@@ -522,6 +555,7 @@
     },
     {
       "name": "DRK-1 Sith Probe Droids",
+      "translatedName": "Droïdes Sondes Sith DRK-1",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789552/446270D5F6DD23C36A7B268F2026A5B9DCFFC8BF/",
       "size": "small",
       "type": "Droid Trooper",
@@ -544,6 +578,7 @@
     },
     {
       "name": "IG-100 MagnaGuard",
+      "translatedName": "Magna Garde IG-100",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789521/5E40422D83C71854A725DB0231D790BAA359574E/",
       "size": "small",
       "type": "Droid Trooper",
@@ -572,6 +607,7 @@
     },
     {
       "name": "IG-100 MagnaGuard",
+      "translatedName": "Magna Garde IG-100",
       "title": "Prototype Assassin Droids",
       "displayName": "Prototype Assassin Droids",
       "image": "http://cloud-3.steamusercontent.com/ugc/2058763770174552451/DA7D23921F723E69C36872019F2692C1A3419B8F/",
@@ -607,6 +643,7 @@
   "Support": [
     {
       "name": "Droidekas",
+      "translatedName": "Droïdekas",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789475/1521CBD0935E6FB62CE544D89AC89E2F19F21D6B/",
       "size": "medium",
       "type": "Ground Vehicle",
@@ -632,6 +669,7 @@
     },
     {
       "name": "STAP Riders",
+      "translatedName": "Pilotes de STAP",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789443/7BE1E58EECCFE75EA2705CD1345E6C0602711AB7/",
       "size": "medium",
       "type": "Repulsor Vehicle",
@@ -657,6 +695,7 @@
     },
     {
       "name": "DSD1 Dwarf Spider Droid",
+      "translatedName": "Droïde Araignée Nain DSD1",
       "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189625/4E13A18FC19BA72238A142EE1D475C2EB16CE20A/",
       "size": "large",
       "type": "Ground Vehicle",
@@ -681,6 +720,7 @@
   "Heavy": [
     {
       "name": "AAT Trade Federation Battle Tank",
+      "translatedName": "Char d'Assaut Blindé de la Fédération du Commerce",
       "displayName": "AAT Battle Tank",
       "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788789411/3550FADAC84804AB14EE338E46C5FEFC339C08B6/",
       "size": "epic",
@@ -705,6 +745,7 @@
     },
     {
       "name": "NR-N99 Persuader-Class Tank Droid",
+      "translatedName": "Tank Droïde NR-N99 de Classe Persuader",
       "displayName": "Persuader Tank",
       "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189694/7B7C520E6E95958DDD99114AA3CC6B28147D7284/",
       "size": "snail",
@@ -728,6 +769,7 @@
     },
     {
       "name": "NR-N99 Persuader-Class Tank Droid",
+      "translatedName": "Tank Droïde NR-N99 de Classe Persuader",
       "title": "Prototype Tank Droid",
       "displayName": "Prototype Tank Droid",
       "image": "http://cloud-3.steamusercontent.com/ugc/2058763770174552651/AD9424C6CC9265D8A0D00D33FB1B32B317E2DD23/",
