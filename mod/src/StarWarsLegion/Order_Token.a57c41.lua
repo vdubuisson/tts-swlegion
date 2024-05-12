@@ -566,36 +566,36 @@ function moveUnit()
               self.createButton({
                   click_function = "moveForward",
                   function_owner = self,
-                  label = "F",
+                  label = "A",
                   position = {3, 0.200000002980232, -1.2}, width = 300, height = 350, font_size = 200,
-                  tooltip = "Move Forwards",
+                  tooltip = "Avancer",
                   color = {1, 1, 0},
                   font_color = {0, 0, 0}
               })
               self.createButton({
                   click_function = "moveBackwards",
                   function_owner = self,
-                  label = "B",
+                  label = "R",
                   position = {3.8, 0.2, -1.2}, width = 300, height = 350, font_size = 200,
-                  tooltip = "Move Backwards",
+                  tooltip = "Reculer",
                   color = {1, 1, 0},
                   font_color = {0, 0, 0}
               })
               self.createButton({
                   click_function = "moveLeft",
                   function_owner = self,
-                  label = "L",
+                  label = "G",
                   position = {4.6, 0.2, -1.2}, width = 300, height = 350, font_size = 200,
-                  tooltip = "Strafe Left",
+                  tooltip = "Glisser à gauche",
                   color = {1, 1, 0},
                   font_color = {0, 0, 0}
               })
               self.createButton({
                   click_function = "moveRight",
                   function_owner = self,
-                  label = "R",
+                  label = "D",
                   position = {5.4, 0.2, -1.2}, width = 300, height = 350, font_size = 200,
-                  tooltip = "Strafe Right",
+                  tooltip = "Glisser à droite",
                   color = {1, 1, 0},
                   font_color = {0, 0, 0}
               })
@@ -604,9 +604,9 @@ function moveUnit()
               self.createButton({
                   click_function = "moveBackwards",
                   function_owner = self,
-                  label = "B",
+                  label = "R",
                   position = {3, 0.200000002980232, -1.2}, width = 300, height = 350, font_size = 200,
-                  tooltip = "Move Backwards",
+                  tooltip = "Reculer",
                   color = {1, 1, 0},
                   font_color = {0, 0, 0}
               })
@@ -615,8 +615,8 @@ function moveUnit()
                   self.editButton({
                       index = 13,
                       click_function = "moveForward",
-                      label = "F",
-                      tooltip = "Move Forwards"
+                      label = "A",
+                      tooltip = "Avancer"
                   })
               end
         end

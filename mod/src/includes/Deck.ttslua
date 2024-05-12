@@ -60,9 +60,9 @@ function Deck:spawnUnitCard(faction, name)
     end
     local name = unit.translatedName or unit.name
     if unit.translatedTitle ~= nil then
-      name = name .. ": " .. unit.translatedTitle
+      name = name .. " (" .. unit.translatedTitle .. ")"
     elseif unit.title ~= nil then
-      name = name .. ": " .. unit.title
+      name = name .. " (" .. unit.title .. ")"
     end
     card.setName(name)
     return card

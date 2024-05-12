@@ -475,9 +475,9 @@ local function initListSpawner(params)
     if completeUnitData ~= nil then
       translatedName = completeUnitData.translatedName or completeUnitData.name
       if completeUnitData.translatedTitle ~= nil then
-        translatedName = translatedName .. " " .. completeUnitData.translatedTitle
+        translatedName = translatedName .. " (" .. completeUnitData.translatedTitle .. ")"
       elseif completeUnitData.title ~= nil then
-        translatedName = translatedName .. " " .. completeUnitData.title
+        translatedName = translatedName .. " (" .. completeUnitData.title .. ")"
       end
     end
 

@@ -1244,16 +1244,19 @@
       "commands": [
         {
           "name": "Common Cause",
+          "translatedName": "Cause Commune",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036994/19D8F067B325C88C9A9A3DE2D4CCAD9A7BAB5957/",
           "pip": 1
         },
         {
           "name": "Brains And Brawn",
+          "translatedName": "Le Corps et l'Esprit",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035622/3BC5E96C0730225BC27EB0CE2BDB471E5CE66F4A/",
           "pip": 2
         },
         {
           "name": "Notorious Scoundrels",
+          "translatedName": "Vauriens Notoires",
           "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033300/4FA05D084E4DECE8DD8EED42E141C413F57201F2/",
           "pip": 3
         }
