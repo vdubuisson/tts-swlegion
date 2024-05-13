@@ -2282,6 +2282,21 @@
         }
       },
       {
+        "name": "2-1B Medical Droid",
+        "translatedName": "Droïde Médical 2-1B",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1680393865568137676/C282622A211B384895C61D5EE0811E4E627FBDBF/",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/949599512594268997/6248E4CAF3E978154106E7095E6984DCE6677CCA/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/949599512594282950/7A9A3E5518394273A507A64CCF7425A2E7EFC29B/"
+        },
+        "points": 18,
+        "restrictions": {
+          "include": {
+            "faction": ["Rebel"]
+          }
+        }
+      },
+      {
         "name": "B1 Battle Droid",
         "translatedName": "Droïde de Combat B1",
         "image": "http://cloud-3.steamusercontent.com/ugc/1680393865568138406/B83A83613C2F77D3BD237309689D70C47BD34350/",
