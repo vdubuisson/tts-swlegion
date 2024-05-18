@@ -2,3 +2,6 @@ dist/
 mod/src/includes/generated/
 node_modules/
 .vs/
+images/
+images-jpeg/
+ImageMagick*

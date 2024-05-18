@@ -4,7 +4,7 @@
       "name": "Obi-Wan Kenobi",
       "title": "Civilized Warrior",
       "translatedTitle": "Guerrier Eclairé",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790629/61D2CCB8A106E855E621557601F65B34FB2AEFC1/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242451/C468AED649E5FFA0C0ABAFA9B9E6751DBEEBE36C/",
       "size": "small",
       "type": "Trooper",
       "points": 170,
@@ -24,19 +24,19 @@
         {
           "name": "Hello There!",
           "translatedName": "Salut à Tous !",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036592/C0182450268D43C5589930D988CF04ECC4A1C248/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661201609/444B8985F97DD2B3B50B7BA4E940B8E96C8B1541/",
           "pip": 1
         },
         {
           "name": "Knowledge And Defense",
           "translatedName": "La Connaissance et la Défense",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035139/48E071EA2C88883329D050F338F8947FD2515F6D/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661194698/92BD0E54F545F803FB430797720D5E7475FC260D/",
           "pip": 2
         },
         {
           "name": "General Kenobi",
           "translatedName": "Général Kenobi",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033710/C8724AA758E97BCBEDA8C66CECDA298AB74EFB05/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661197225/E3227062C9E64CA815ADCB0458097C46813053BC/",
           "pip": 3
         }
       ]
@@ -46,7 +46,7 @@
       "translatedName": "Capitaine Clone Rex",
       "title": "Honorable Soldier",
       "translatedTitle": "Soldat Honorable",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790598/868FE96BEB709EE3A25D7973FF259B8BF7824475/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242537/E2EACF972737B3A03ECF5E8042AAE0FA18CD23C8/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 95,
@@ -67,19 +67,19 @@
         {
           "name": "Call Me Captain",
           "translatedName": "Appelez-Moi Capitaine",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564037031/128A58AE6DE52C3BFB59C0B621C1562EC5760564/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661193308/69507F0CB8CDB4EBA13A353DD66CF27DB7B81ECD/",
           "pip": 1
         },
         {
           "name": "Take That, Clankers!",
           "translatedName": "Prenez-ça, Cliquetis Ambulants !",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034598/FAD8628CEF4BC9782992174756FD109E5AD8E949/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661194237/4C5E0871B27AE46E7632BFCD596A97491F2C9A82/",
           "pip": 2
         },
         {
           "name": "We're Not Programmed",
           "translatedName": "Nous ne sommes pas Programmés",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564032907/37CBE4B02058855DF6EB5B305AEC12DA796E8FDD/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661199999/6F4099C79E2435C85F453F3E64F84D2C4296723C/",
           "pip": 3
         }
       ]
@@ -88,7 +88,7 @@
       "name": "Anakin Skywalker",
       "title": "The Chosen One",
       "translatedTitle": "L'Elu",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790573/1BDDD3F5C3D43558F79F35F1A4B9327F4729D62B/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661241996/5D0062EA2ECB8EF72DB6AF05B7739B8E4F7328EC/",
       "size": "small",
       "type": "Trooper",
       "points": 155,
@@ -108,19 +108,19 @@
         {
           "name": "This Is Where The Fun Begins",
           "translatedName": "Que la Fête Commence !",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035947/5377294A33E87301DC4D54ED1A1C1DE218E1C882/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661196674/067DF948E66C4F0D281A60562455FB2203F51D41/",
           "pip": 1
         },
         {
           "name": "You Underestimate My Power",
           "translatedName": "C'est Mal Connaître mes Pouvoirs",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1860546411028299110/717B2B1BCADD299F347748ABBE239E89A0B6EE08/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661198735/8CC2F258D3E02262EFA167B5CE2A3982DC7ED221/",
           "pip": 2
         },
         {
           "name": "Hero Of The Clone Wars",
           "translatedName": "Héros de la Guerre des Clones",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033655/AA08CE1F53847CE3CCA7233A1060886F8EBE500F/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661197482/08EFAC7A6335878A28FFBF70E989B6182DD7EA34/",
           "pip": 3
         }
       ],
@@ -131,7 +131,7 @@
       "translatedName": "Commandant Clone",
       "title": "Trained For Leadership",
       "translatedTitle": "Entraîné à Diriger",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790538/EBB9911B9EB9C0F817370266A8ACB8357BEB3919/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242375/6A355724716447D3F5ECAB31A61566645DB198EC/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 60,
@@ -151,7 +151,7 @@
       "name": "Yoda",
       "title": "Grand Master Of The Jedi Order",
       "translatedTitle": "Grand Maître de l'Ordre Jedi",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790511/A6CDD26B405EFC7CC306D96BB04AA24E5BED2794/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242612/6DB973499F61560D5AD382613376DE84387FB6BF/",
       "size": "small",
       "type": "Trooper",
       "points": 200,
@@ -168,20 +168,20 @@
       "commands": [
         {
           "name": "Size Matters Not",
-          "translatedName": "La Taille Important n'Est Pas",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036164/6444F2658805AE43ED73CF592F8D9340262E8851/",
+          "translatedName": "La Taille Importante n'Est Pas",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661202827/62068B87E8911C2ECC0814F435FDF21A9C59BBD4/",
           "pip": 1
         },
         {
           "name": "There Is No Try",
           "translatedName": "Il n'y a pas d'Essai",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034526/8811897A231A24247FA9120971D4994A45BAE4CD/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661199935/81980050410E4F4B884C670A09771E409301677E/",
           "pip": 2
         },
         {
           "name": "Luminous Beings Are We",
           "translatedName": "Des Etres Lumineux Nous Sommes",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033410/83F24DB765D234502B457983834BF25FB5FAB05A/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661196493/EA7E0255C98E7DABAA316DED2FE8E83E794057FB/",
           "pip": 3
         }
       ]
@@ -191,7 +191,7 @@
       "translatedName": "Chef Wookie",
       "title": "Clan Leader",
       "translatedTitle": "Leader de Clan",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790478/85E9C624082CA5731008121F45ABFA06CC4583DB/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242156/525E6E59CAB04FC241C0C35190711694D36CAF6A/",
       "size": "small",
       "type": "Wookiee Trooper",
       "points": 100,
@@ -211,7 +211,7 @@
       "name": "Chewbacca",
       "title": "Hero Of Kashyyyk",
       "translatedTitle": "Héros de Kashyyyk",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790442/8E99C974FA5AF735BADBABA2CEA6400399908E50/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661242268/0723EC4D75F4175BB963232BFD8BEBADADFAAD66/",
       "size": "small",
       "type": "Wookiee Trooper",
       "points": 90,
@@ -230,7 +230,7 @@
         {
           "name": "Size Matters Sometimes",
           "translatedName": "La Taille Importe Parfois",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034701/1CC8DEA4C8584B532EAA67A7BA8E4FEA81EEAD85/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661202922/21609922F4EC6398156D390A0009DA6626F37B5F/",
           "pip": 2
         }
       ]
@@ -280,7 +280,7 @@
       "name": "R2-D2",
       "title": "Independent Astromech",
       "translatedName": "Astromech Indépendant",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790410/0D5BE2D0E5632005D6BC47413845604898AF0004/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661230132/3F3D403C0649DAAC89DD3AE03A4DF391B9F67532/",
       "size": "small",
       "type": "Droid Trooper",
       "points": 55,
@@ -299,19 +299,19 @@
         {
           "name": "Blast Off!",
           "translatedName": "Décollage !",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564037063/A7AE3401CB3A51A58A8682BBCD8D6F6C104804AF/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661194963/EC5F8565A3A31D6F03D1A5E8BCD87C4F9290E7C2/",
           "pip": 1
         },
         {
           "name": "Impromptu Immolation",
           "translatedName": "Immolation Inattendue",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035209/4C4829AE9D1B01B14F2D4FDE2C6D3935D8055954/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661197803/91C8AE37EA19DD8A6A4A9B27F805588C853BAFBE/",
           "pip": 2
         },
         {
           "name": "Smoke Screen",
           "translatedName": "Ecran de Fumée",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033033/7FC32081CE8646476E7B0C475F452AA629BA7713/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661195902/43B70895C1902DFFB9E60BA1544A5654328ABDEA/",
           "pip": 3
         }
       ]
@@ -321,7 +321,7 @@
       "translatedName": "Padmé Amidala",
       "title": "Spirited Senator",
       "translatedTitle": "Fougueuse Sénatrice",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790377/AC7989ED45A958942F1EF716B575174C5BEB92E1/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661241145/9849EBD1C7A894549D851A0C6D814A152BCBABC9/",
       "size": "small",
       "type": "Trooper",
       "points": 85,
@@ -342,19 +342,19 @@
         {
           "name": "Our Fate Is In Your Hands",
           "translatedName": "Notre Destin est Entre vos Mains",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036311/3A7A61391C83C42A345A3EAB161E6561398BE472/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661195317/BAFBEB66BE3B67BBEA5C2E5562502BB20FA74F47/",
           "pip": 1
         },
         {
           "name": "Aggressive Negotiations",
           "translatedName": "Négotiations Brutales",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564035707/638FD7106E81C966C44029EE4176F70CC9A2882F/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661199588/05B8EB09BF2D6F057A479AC1C134D5A3B63ED97D/",
           "pip": 2
         },
         {
           "name": "Diplomatic Cover",
           "translatedName": "Couverture Diplomatique",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033800/D0BF00F6C508E2765F47868E4399E798D8811426/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661194865/0DAA1EA47C13C03C80ACA77C969411018BAA9111/",
           "pip": 3
         }
       ]
@@ -364,7 +364,7 @@
     {
       "name": "Phase I Clone Troopers",
       "translatedName": "Soldats Clones de Phase I",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790336/C2B0C8EB973E7D6657E288E5AFE9C3F00809461A/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661246408/26711ABC9BCE30E57468059092DC74CBED7413B4/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 52,
@@ -397,7 +397,7 @@
     {
       "name": "Phase II Clone Troopers",
       "translatedName": "Soldats Clones de Phase II",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790299/B84917597F10DE241D7909430E91B5FC03248144/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661246489/588A4C1C22562677A340E5EA49C15C6D16BD5F3B/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 60,
@@ -432,7 +432,7 @@
     {
       "name": "Arc Troopers",
       "translatedName": "Soldats CRA",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790227/9326CC2191C991FF9CB0EB06A4EA17A2A17078BC/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661244721/B2ECA033E071FA5CDBE87E41D9C5D955D61D3C11/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 66,
@@ -470,7 +470,7 @@
       "translatedTitle": "Groupe de Combat",
       "displayName": "Arc Troopers (Strike Team)",
       "heavyWeaponTeam": true,
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790261/AD41C53AE8A6F57645BE2A51DAD8E9FF4FB9224D/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661244812/8283FB0725B37457929083CB1CB053765912F911/",
       "size": "small",
       "type": "Clone Trooper",
       "points": 24,
@@ -492,7 +492,7 @@
     {
       "name": "Wookiee Warriors",
       "translatedName": "Guerriers Wookies",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1619598366708171464/0A12FC8F203E5376156D3C2A207E33E1F5ACB0B6/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661244884/54C584EEB1852D995CBE77C0048A59FE5310404E/",
       "size": "small",
       "type": "Wookiee Trooper",
       "points": 69,
@@ -524,7 +524,7 @@
       "title": "Kashyyyk Defenders",
       "translatedTitle": "Défenseurs de Kashyyyk",
       "displayName": "Wookiee Warriors (Defenders)",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790192/E7C7082C239E04E3DF76FDFF909EE360D9C25012/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661244960/AD2E0A21D6815D11B8CD1AF75A00580B913433D4/",
       "size": "small",
       "type": "Wookiee Trooper",
       "points": 72,
@@ -552,7 +552,7 @@
     {
       "name": "BARC Speeder",
       "translatedName": "Speeder BARC",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790145/DD6B7ACA36B88E28B4326E7AA96536230B87F01E/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661245524/8C19ABAC945DF67C61E9C7AE8E34D7A4AEC49E5D/",
       "size": "large",
       "type": "Repulsor Vehicle",
       "points": 55,
@@ -575,7 +575,7 @@
     {
       "name": "AT-RT",
       "translatedName": "TL-TT",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790101/7D591836DB5F16ED19FE2A28B55784950E1759CB/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661245710/D301FC9FF00B6378B8ED30A9C0E11E7C37214D83/",
       "size": "large",
       "type": "Ground Vehicle",
       "points": 60,
@@ -598,7 +598,7 @@
       "name": "Raddaugh Gnasp Fluttercraft",
       "translatedName": "Ornithoptère Raddaugh Gnasp",
       "displayName": "Fluttercraft",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189347/2BD4025EABD6F2A919AC40FC4E6D3C8AC4292E86/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661245617/F25E9BD5DABB2C96B07887FF45A2EFBB142A2D0D/",
       "size": "huge",
       "type": "Repulsor Vehicle",
       "points": 55,
@@ -682,7 +682,7 @@
       "name": "TX-130 Saber-Class Fighter Tank",
       "translatedName": "Tank de Classe Saber TX-130",
       "displayName": "Saber Tank",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788790069/CFA0E667E3B9FEB5F80A3F7A68CAADE7FCF5F340/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661243626/B88D777D4BE9755267097CA31A5F6E2EC66FAFC2/",
       "size": "epic",
       "type": "Repulsor Vehicle",
       "points": 160,
@@ -707,7 +707,7 @@
     {
       "name": "LAAT/LE Patrol Transport",
       "translatedName": "Transport de Patrouille LAAT/le",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788700907/2DD3325FA71C1F920CC957F8B7393893AE282073/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661243516/A289C243E0FD7E5642FDB391246734430043CD6E/",
       "size": "laat",
       "type": "Repulsor Vehicle",
       "points": 100,
@@ -731,7 +731,7 @@
     {
       "name": "Infantry Support Platform",
       "translatedName": "Plateforme de Soutien d'Infanterie",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1616219505081189285/5E0D18805F9C4BF8A978A9F1F20CFAE73575D02F/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661243989/205E62331943C6FCC99FC099B6BB704A0E9169AE/",
       "size": "huge",
       "type": "Repulsor Vehicle",
       "points": 65,

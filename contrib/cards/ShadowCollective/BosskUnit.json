@@ -2,7 +2,7 @@
   "name": "Bossk",
   "title": "Trandoshan Terror",
   "translatedTitle": "Terreur de Trandosha",
-  "image": "http://cloud-3.steamusercontent.com/ugc/1856061112418867948/20A2EB617A2E756580A6A127046FFC24E28F1157/",
+  "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661213833/DE7578D74C05680805B68ACB37179277DFBB518E/",
   "size": "small",
   "type": "Trooper",
   "points": 105,
@@ -21,19 +21,19 @@
     {
       "name": "Merciless Munitions",
       "translatedName": "Munitions Impitoyables",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564036341/7FF893D01D2692E537EB6B157DCAB16421438FC4/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661199471/7F72E80F98AFC4B2E0A2E3C4274699DA892EC051/",
       "pip": 1
     },
     {
       "name": "Reptilian Rampage",
       "translatedName": "Fureur Reptilienne",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564034734/F11C62C109C1CA7EE490169555DBAE37E4A9B53C/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661197122/D7F6ADA1724D9C42C270215C8C70364AD3FBB37F/",
       "pip": 2
     },
     {
       "name": "Lying In Wait",
       "translatedName": "Paré et en Position",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1680393865564033363/C8D04CF3CEE5DE82C69BAB90B7C61DFA842AE591/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/2478746629661199859/2A23F2EAF10F0796D6AE2F4BF24184E8B5392DCE/",
       "pip": 3
     }
   ],
