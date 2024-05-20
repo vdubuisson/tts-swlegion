@@ -373,7 +373,7 @@ function switchBattleDeck(params)
       },
       conditions = {
         "War Weary",
-        "Improvised Defenses",
+        "Improved Defenses",
         "Dawn",
         "Clear Conditions",
       },
