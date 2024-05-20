@@ -4215,26 +4215,26 @@
         {
           "name": "Breach",
           "translatedName": "Brèche",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279492/85477A894623DDA23BC182995DAF396671A0C007/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671746976/9A04D858FD6082AC6242BBE4D556DC5CD1A8AF7D/",
           "type": "vertical"
         },
         {
           "name": "Control",
           "translatedName": "Contrôle",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279456/10F29ECE1579A06D7DC564A6480F2BE27CC6EF04/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747174/88A44485947F63047BCD458B7641C463A0D1B4F9/",
           "type": "vertical",
           "additionalObjects": ["Pion Objectif"]
         },
         {
           "name": "Elimination",
           "translatedName": "Éradication",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279416/6160501F308751CB9266FF991FF62E1409058C4B/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747432/CE93B0805B47F5A4C0C08B3E350FF7DE300E4586/",
           "type": "vertical"
         },
         {
           "name": "Pivotal Positions",
           "translatedName": "Position Centrale",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279382/6E006F31C9D5200AAA94392D94C2AE78EE4D73C7/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747748/8F1DD09EF3D31D06E97A418BB95BB1702C8FD130/",
           "type": "vertical",
           "additionalObjects": [
             "Pion Objectif",
@@ -4247,7 +4247,7 @@
         {
           "name": "Battle Lines",
           "translatedName": "Lignes de Bataille",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279345/8A96884057E13BF488E89177C2B9CCB0ADDDFFE0/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747594/BD45BBB9DBE5A73FFD48435E9B1721849551FE3A/",
           "type": "vertical",
           "zone": [
             [" ", " ", " ", "r", "r", "r", "r", "r", "r", " ", " ", " "],
@@ -4261,14 +4261,14 @@
         {
           "name": "Faceoff",
           "translatedName": "Face-à-Face",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279307/F41700690107CC7398BD5B95CDED30B041538517/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747511/9E9D2091D5513D81D31230E1079132517CB3EDA5/",
           "type": "vertical",
           "zone": []
         },
         {
           "name": "Flanking Positions",
           "translatedName": "Placement de Flancs",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279273/0D6B1CF6762E532AA4C0D039C2CC96F0E25A419F/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747664/04BC889CF801923058C1207DDD83AC8E85AAB907/",
           "type": "vertical",
           "zone": [
             [" ", " ", " ", "r", "r", "r", " ", " ", " ", " ", " ", " "],
@@ -4282,7 +4282,7 @@
         {
           "name": "Meeting Engagement",
           "translatedName": "Séquence d'Engagement",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279232/4F4C1C54E5DCE9FD1E9C46BB75379AEF60E2DAFC/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747887/09566630162E0D45F8A7371F2ECFDB7AA2794BF6/",
           "type": "vertical",
           "zone": [
             [" ", " ", " ", "r", "r", " ", " ", " ", " ", " ", " ", " "],
@@ -4298,13 +4298,13 @@
         {
           "name": "War Weary",
           "translatedName": "Épuisés par la Guerre",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279193/052C3637BE4F31FAA691235E186CC73B1CE928F7/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747344/1A3FA9238A6EAF918DF255E50144BDA6D904D4FA/",
           "type": "vertical"
         },
         {
           "name": "Improvised Defenses",
           "translatedName": "Défenses Improvisées",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279155/3F72099B06947F23231D8B2228D25C63E01FED92/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747265/F4D8FE89051E8BBCCD1D1ECBC7EC4713069ACF16/",
           "type": "vertical",
           "additionalObjects": [
             "Barricade",
@@ -4316,13 +4316,13 @@
         {
           "name": "Dawn",
           "translatedName": "À l'Aube",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279122/1952ADAEF00EAAF039C3D0C160AABF3BD4F7B0E1/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671746834/DA542DD48B6A408CCCF2FB4EC20D128A6193E5EE/",
           "type": "vertical"
         },
         {
           "name": "Clear Conditions",
           "translatedName": "Conditions Favorables",
-          "image": "http://cloud-3.steamusercontent.com/ugc/4112341331071279082/F2116A3FBAB46DAD85EE43AB1CBF9497C567B2A8/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/2478746629671747104/E2D7798FEAEAFC1BF6D5413EB79BCB69661112C9/",
           "type": "vertical"
         }
       ]
