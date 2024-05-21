@@ -310,7 +310,7 @@ function featuredSkirmisMenu()
   ga_view("game_controller/featured_maps/skirmish")
   printToScreen("CARTES ESCARMOUCHE\n\nCes cartes sont créées par la communauté.\n\nVoir https://go.swlegion.dev/maps\npour plus de détails.\n\nLe support complet du mode Escarmouche\nest pour le moment limité :\nhttps://go.swlegion.dev/skirmish.", 80, 3)
   changeBackButton("featuredMapsMenu", "Revenir au menu des cartes incluses")
-  local url = "https://raw.githubusercontent.com/swlegion/tts/master/contrib/maps/skirmish.json"
+  local url = "https://raw.githubusercontent.com/vdubuisson/tts-swlegion/fr-translation/contrib/maps/skirmish.json"
   WebRequest.get(url, function(data)
     local items = JSON.decode(data.text)
     local menu = {}
