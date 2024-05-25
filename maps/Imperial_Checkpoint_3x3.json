@@ -76,7 +76,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Escaliers [Couvert Léger]",
-          "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille > 4 le considère Difficile\n\nMarches:\nTous: Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+          "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille > 4 le considère Difficile\n\nMarches:\nTous: Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -124,7 +124,7 @@
                 "scaleZ": 1.0
               },
               "Nickname": "Passerelle [Couvert Léger]",
-              "Description": "Couvert Léger:\nSoldats Non-Creature\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nPlateforme:\nTous - Ouvert\n\nHauteur: 1\n\nRight-Click and switch states to access different levels\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+              "Description": "Couvert Léger:\nSoldats Non-Creature\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nPlateforme:\nTous - Découvert\n\nHauteur: 1\n\nRight-Click and switch states to access different levels\n\nSpecial thanks to www.youtube.com/tabletopoddity",
               "GMNotes": "",
               "ColorDiffuse": {
                 "r": 1.0,
@@ -172,7 +172,7 @@
                     "scaleZ": 1.0
                   },
                   "Nickname": "Passerelle [Couvert Léger]",
-                  "Description": "Couvert Léger:\nSoldats Non-Creature\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nPlateforme:\nTous - Ouvert\n\nHauteur: 1\n\nRight-Click and switch states to access different levels\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+                  "Description": "Couvert Léger:\nSoldats Non-Creature\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nPlateforme:\nTous - Découvert\n\nHauteur: 1\n\nRight-Click and switch states to access different levels\n\nSpecial thanks to www.youtube.com/tabletopoddity",
                   "GMNotes": "",
                   "ColorDiffuse": {
                     "r": 1.0,
@@ -222,7 +222,7 @@
                     "scaleZ": 1.00000083
                   },
                   "Nickname": "Escaliers [Couvert Léger]",
-                  "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille > 4 le considère Difficile\n\nMarches:\nTous: Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+                  "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille > 4 le considère Difficile\n\nMarches:\nTous: Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
                   "GMNotes": "",
                   "ColorDiffuse": {
                     "r": 1.0,
@@ -274,7 +274,7 @@
             "scaleZ": 0.5000005
           },
           "Nickname": "Affiche Holographique [Couvert Léger]",
-          "Description": "Couvert Léger:\nFigs taille 2.5 et moins\n\nAffiche Holographique:\nTous - Ouvert\n\nHauteur: 1\n",
+          "Description": "Couvert Léger:\nFigs taille 2.5 et moins\n\nAffiche Holographique:\nTous - Découvert\n\nHauteur: 1\n",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -322,7 +322,7 @@
             "scaleZ": 1.19999981
           },
           "Nickname": "Caisses de Transport [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.388789862,
@@ -370,7 +370,7 @@
                 "scaleZ": 1.0
               },
               "Nickname": "Caisses de Transport [Couvert Lourd]",
-              "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+              "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
               "GMNotes": "",
               "ColorDiffuse": {
                 "r": 1.0,
@@ -418,7 +418,7 @@
                     "scaleZ": 1.0
                   },
                   "Nickname": "Caisses de Transport [Couvert Lourd]",
-                  "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+                  "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
                   "GMNotes": "",
                   "ColorDiffuse": {
                     "r": 1.0,
@@ -566,7 +566,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Banc [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.947776,
@@ -614,7 +614,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Banc [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.947776,
@@ -806,7 +806,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Banc [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.947776,
@@ -1286,7 +1286,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Pot de fleurs [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature, Figs taille 2 et moins\n\nCaisses:\nSoldat - Difficile\nVéhicule Terrestre - Ouvert\nRépulseurs - Ouvert",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature, Figs taille 2 et moins\n\nCaisses:\nSoldat - Difficile\nVéhicule Terrestre - Découvert\nRépulseurs - Découvert",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.859307,
@@ -1334,7 +1334,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Banc [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.947776,
@@ -1430,7 +1430,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Pot de fleurs [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats Non-Creature, Figs taille 2 et moins\n\nCaisses:\nSoldat - Difficile\nVéhicule Terrestre - Ouvert\nRépulseurs - Ouvert",
+          "Description": "Couvert Lourd:\nSoldats Non-Creature, Figs taille 2 et moins\n\nCaisses:\nSoldat - Difficile\nVéhicule Terrestre - Découvert\nRépulseurs - Découvert",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.859307,
@@ -1478,7 +1478,7 @@
             "scaleZ": 0.5000005
           },
           "Nickname": "Affiche Holographique [Couvert Léger]",
-          "Description": "Couvert Léger:\nFigs taille 2.5 et moins\n\nAffiche Holographique:\nTous - Ouvert\n\nHauteur: 1\n",
+          "Description": "Couvert Léger:\nFigs taille 2.5 et moins\n\nAffiche Holographique:\nTous - Découvert\n\nHauteur: 1\n",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -1526,7 +1526,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Fontaine [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs taille 3.5 et moins\n\nFontaine:\nSoldats: Difficile\nVéhicule Terrestres: Difficile\nRépulseurs: Ouvert\n\nHauteur: 1\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Lourd:\nFigs taille 3.5 et moins\n\nFontaine:\nSoldats: Difficile\nVéhicule Terrestres: Difficile\nRépulseurs: Découvert\n\nHauteur: 1\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.8104719,
@@ -1766,7 +1766,7 @@
             "scaleZ": 0.850000143
           },
           "Nickname": "Petit Parc [Couvert Léger][Terrain en Zone]",
-          "Description": "Couvert Léger:\nFigs taille 5 et moins\n\nCôtés:\nTous - Difficile\n\nPelouse:\nSoldat - Ouvert\nVéhicule Terrestres - Ouvert\nRépulseurs - Difficile\n\nHauteur: 1\n\nSpecial Thanks: www.danwulfgames.com",
+          "Description": "Couvert Léger:\nFigs taille 5 et moins\n\nCôtés:\nTous - Difficile\n\nPelouse:\nSoldat - Découvert\nVéhicule Terrestres - Découvert\nRépulseurs - Difficile\n\nHauteur: 1\n\nSpecial Thanks: www.danwulfgames.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.721568644,
@@ -1958,7 +1958,7 @@
             "scaleZ": 1.02592409
           },
           "Nickname": "Barricade [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nCentre:\nTous - Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nCentre:\nTous - Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.883425,
@@ -3446,7 +3446,7 @@
             "scaleZ": 1.02592409
           },
           "Nickname": "Barricade [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nCentre:\nTous - Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nCentre:\nTous - Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.883425,
@@ -3734,7 +3734,7 @@
             "scaleZ": 1.02592409
           },
           "Nickname": "Barricade [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nCentre:\nTous - Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs Taille 1 et moins\n\nCôtés:\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nCentre:\nTous - Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.883425,

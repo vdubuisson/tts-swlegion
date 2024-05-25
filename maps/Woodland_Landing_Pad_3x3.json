@@ -172,7 +172,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Escaliers [Couvert Léger]",
-          "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille >4 le considère Difficile\n\nMarches:\nTous: Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+          "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille >4 le considère Difficile\n\nMarches:\nTous: Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -316,7 +316,7 @@
                     "scaleZ": 1.00000012
                   },
                   "Nickname": "Escaliers [Couvert Léger]",
-                  "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille >4 le considère Difficile\n\nMarches:\nTous: Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+                  "Description": "Couvert Léger:\nFigs taille 4 et moins\n\nCôtés:\nTous: Infranchissable\n\nFigs taille >4 le considère Difficile\n\nMarches:\nTous: Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
                   "GMNotes": "",
                   "ColorDiffuse": {
                     "r": 1.0,
@@ -368,7 +368,7 @@
             "scaleZ": 1.0999999
           },
           "Nickname": "Echelle [Couvert Léger]",
-          "Description": "Couvert Léger:\nSoldats Non-Creature\n\nEntretoises:\nTous: Infranchissable\n\nFigs taille >3 le considère Difficile\n\nPlateforme:\nTous - Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+          "Description": "Couvert Léger:\nSoldats Non-Creature\n\nEntretoises:\nTous: Infranchissable\n\nFigs taille >3 le considère Difficile\n\nPlateforme:\nTous - Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -416,7 +416,7 @@
             "scaleZ": 2.94999838
           },
           "Nickname": "Tronc couché [Couvert Léger]",
-          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nTronc\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nTronc\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.9999998,
@@ -474,7 +474,7 @@
             "scaleZ": 1.0999999
           },
           "Nickname": "Echelle [Couvert Léger]",
-          "Description": "Couvert Léger:\nSoldats Non-Creature\n\nEntretoises:\nTous: Infranchissable\n\nFigs taille >3 le considère Difficile\n\nPlateforme:\nTous - Ouvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
+          "Description": "Couvert Léger:\nSoldats Non-Creature\n\nEntretoises:\nTous: Infranchissable\n\nFigs taille >3 le considère Difficile\n\nPlateforme:\nTous - Découvert\n\nHauteur: 1\n\nSpecial thanks to www.youtube.com/tabletopoddity",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -522,7 +522,7 @@
             "scaleZ": 2.67499948
           },
           "Nickname": "X-Wing T-65 [Couvert Léger/Lourd]",
-          "Description": "Ailes et Corps (Lourd):\nFigs taille 3 et moins\n\nCanons Laser (Léger):\nSoldats Non-Creature\n\nCôtés:\nSoldat: Infranchissable\nVéhicule Terrestre: Infranchissable\nRépulseurs - Infranchissable\n\nFigs taille >3 le considère Difficile\n\nToit et Pente:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Ailes et Corps (Lourd):\nFigs taille 3 et moins\n\nCanons Laser (Léger):\nSoldats Non-Creature\n\nCôtés:\nSoldat: Infranchissable\nVéhicule Terrestre: Infranchissable\nRépulseurs - Infranchissable\n\nFigs taille >3 le considère Difficile\n\nToit et Pente:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -676,7 +676,7 @@
             "scaleZ": 1.19999981
           },
           "Nickname": "Caisses de Transport [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -724,7 +724,7 @@
             "scaleZ": 0.681968331
           },
           "Nickname": "Petite Falaise [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.83250767,
@@ -772,7 +772,7 @@
             "scaleZ": 2.94999838
           },
           "Nickname": "Tronc couché [Couvert Léger]",
-          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nTronc\nSoldat: Difficile\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nSpecial Thanks: imperialterrain.com",
+          "Description": "Couvert Lourd:\nFigs taille 1 et moins\n\nTronc\nSoldat: Difficile\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nSpecial Thanks: imperialterrain.com",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.9999998,
@@ -830,7 +830,7 @@
             "scaleZ": 0.850000143
           },
           "Nickname": "Bois Clairsemés [Couvert Léger]",
-          "Description": "Soldats: Ouvert\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
+          "Description": "Soldats: Découvert\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -878,7 +878,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Bois Clairsemés [Couvert Léger]",
-          "Description": "Soldats: Ouvert\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
+          "Description": "Soldats: Découvert\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -926,7 +926,7 @@
             "scaleZ": 0.6750003
           },
           "Nickname": "Petite Falaise [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.83250767,
@@ -1118,7 +1118,7 @@
             "scaleZ": 0.6750003
           },
           "Nickname": "Petite Falaise [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.83250767,

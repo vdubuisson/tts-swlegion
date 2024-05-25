@@ -270,7 +270,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Bois Clairsemés [Couvert Léger]",
-          "Description": "Soldats: Ouvert\nVéhicule Terrestre: Ouvert\nRépulseurs: Ouvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
+          "Description": "Soldats: Découvert\nVéhicule Terrestre: Découvert\nRépulseurs: Découvert\n\nTerrain en Zone:\nQuand vous déterminez si un objet est sous couvert, si la ligne de l'attaquant au défenseur traverse n'importe quelle partie de la base du terrain, il est considéré sous couvert. Tant qu'une figurine touche la base, elle est sous Couvert.",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 1.0,
@@ -366,7 +366,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Petite Falaise [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.83250767,
@@ -510,7 +510,7 @@
             "scaleZ": 1.0
           },
           "Nickname": "Petite Falaise [Couvert Lourd]",
-          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Ouvert\n\nHauteur: 1",
+          "Description": "Couvert Lourd:\nSoldats, Speeder Bikes, TL-TT\n\nCôtés:\nTous - Infranchissable\n\nDessus:\nTous - Découvert\n\nHauteur: 1",
           "GMNotes": "",
           "ColorDiffuse": {
             "r": 0.83250767,
