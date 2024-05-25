@@ -12,11 +12,11 @@
     "url": "https://raw.githubusercontent.com/vdubuisson/tts-swlegion/fr-translation/maps/Imperial_Checkpoint_3x3.json"
   },
   {
-    "name": "Woodland Battle",
-    "url": "http://cloud-3.steamusercontent.com/ugc/1754683015340768989/2F91C4693A43C4D4F5940A58FB414C84FC74B8DF/"
+    "name": "Bataille dans les Bois",
+    "url": "https://raw.githubusercontent.com/vdubuisson/tts-swlegion/fr-translation/maps/Woodland_Battle_3x3.json"
   },
   {
-    "name": "Woodland Landing Pad",
-    "url": "http://cloud-3.steamusercontent.com/ugc/1754683015340769304/E7C01A86D916B57FF2189D15E864EA085913FBDF/"
+    "name": "Aire d'Atterrissage Forestière",
+    "url": "https://raw.githubusercontent.com/vdubuisson/tts-swlegion/fr-translation/maps/Woodland_Landing_Pad_3x3.json"
   }
 ]
